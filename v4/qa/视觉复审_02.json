@@ -1,0 +1,8 @@
+{
+  "score": 89,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["第15页Codex检索与制作在制作中间断行，影响阅读"],
+  "suggestions": ["改成Codex检索和制作初稿两行"],
+  "reasoning": "已读取24页Artifact渲染图并抽查原生PowerPoint第5、9、15页，截图比例与字体问题已修复。先修复第15页再完成原生页面检查。"
+}

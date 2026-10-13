@@ -1,0 +1,11 @@
+{
+  "score": 89,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["完整原生PowerPoint页面尚未全量复审", "最新Word版余页复审待做", "主讲新多媒体未落实"],
+  "suggestions": ["恢复额度后先读最后一轮原生PNG，不重做旧实验", "完成版式和多媒体后安排真人试讲"],
+  "reasoning": "字体、截图比例、15页断行已修复，结构检查和原生导出完成；整体可用性仍不足以宣告验收。15%触线，仅保存阶段结果。",
+  "next_actions": ["阅读v4/06_阶段交接.md", "复审Word与PowerPoint原生PNG", "落实可选离线媒体", "真人理解与计时"],
+  "threshold": 90,
+  "threshold_pass": false
+}

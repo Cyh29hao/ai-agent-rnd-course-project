@@ -16,3 +16,7 @@ auth.json
 .codex/
 *.pem
 *.key
+node_modules/
+v4/_build/*.pptx
+v4/_build/*.ndjson
+v4/_build/*.log

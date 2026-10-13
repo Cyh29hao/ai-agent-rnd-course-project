@@ -1,0 +1,16 @@
+[
+  {
+    "file": "课程报告_V4.docx",
+    "pages": 11,
+    "sha256": "63fa81c9e65bcf51d52bba557cfd97699d8fe90070aa850dd110e725a832a19e",
+    "renderer": "Microsoft Word COM",
+    "pdf_sha256": "dfe0d8800fa91d865c8d46cc3e61632da3c5d1187a253328cb6132b45ec254f1"
+  },
+  {
+    "file": "四人口播_V4.docx",
+    "pages": 6,
+    "sha256": "60947d3f06047bba02c53368bc502406eb4beff785d4dcad8fb404d6848cc947",
+    "renderer": "Microsoft Word COM",
+    "pdf_sha256": "0269352a8f3cb2f8f2e9dbe463ba31005b0a60dd3323aa70a2a443d32730ed92"
+  }
+]
