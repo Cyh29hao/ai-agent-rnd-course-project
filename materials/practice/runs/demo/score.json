@@ -1,0 +1,332 @@
+{
+  "note": "Script scores labels only. Location is manually reviewed, not inferred from fragment existence.",
+  "variants": {
+    "baseline": {
+      "total": 16,
+      "valid_outputs": 16,
+      "label_correct": 13,
+      "false_release": 0,
+      "risky_gold_total": 8,
+      "location_correct": null,
+      "location_reviewed": null,
+      "matrix": [
+        {
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "count": 4
+        },
+        {
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "count": 4
+        },
+        {
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "count": 3
+        },
+        {
+          "gold": "overstated",
+          "predicted": "overstated",
+          "count": 1
+        },
+        {
+          "gold": "supported",
+          "predicted": "supported",
+          "count": 4
+        }
+      ],
+      "rows": [
+        {
+          "claim_id": "T01",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T02",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T03",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T04",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T05",
+          "gold": "overstated",
+          "predicted": "overstated",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T06",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T07",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T08",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T09",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T10",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T11",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T12",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T13",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T14",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T15",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T16",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        }
+      ]
+    },
+    "candidate": {
+      "total": 16,
+      "valid_outputs": 16,
+      "label_correct": 12,
+      "false_release": 0,
+      "risky_gold_total": 8,
+      "location_correct": null,
+      "location_reviewed": null,
+      "matrix": [
+        {
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "count": 4
+        },
+        {
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "count": 4
+        },
+        {
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "count": 4
+        },
+        {
+          "gold": "supported",
+          "predicted": "supported",
+          "count": 4
+        }
+      ],
+      "rows": [
+        {
+          "claim_id": "T01",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T02",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T03",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T04",
+          "gold": "supported",
+          "predicted": "supported",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T05",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T06",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T07",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T08",
+          "gold": "overstated",
+          "predicted": "contradicted",
+          "correct": false,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T09",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T10",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T11",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T12",
+          "gold": "contradicted",
+          "predicted": "contradicted",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T13",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T14",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T15",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        },
+        {
+          "claim_id": "T16",
+          "gold": "insufficient",
+          "predicted": "insufficient",
+          "correct": true,
+          "location_review": null,
+          "issues": []
+        }
+      ]
+    }
+  }
+}

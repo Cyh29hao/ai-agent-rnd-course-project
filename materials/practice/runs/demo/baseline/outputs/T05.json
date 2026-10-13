@@ -1,0 +1,9 @@
+{
+  "claim_id": "T05",
+  "label": "overstated",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "65%是Petri十维覆盖加权安全改善空间指标，不能解释为全部安全测试的通过率。",
+  "limitation": "该指标只覆盖指定审计维度，不能说明所有安全测试表现。",
+  "suggested_wording": "该胜出检查点在指定Petri审计中的覆盖加权安全改善空间指标为65%。"
+}

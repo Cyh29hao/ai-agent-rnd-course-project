@@ -1,0 +1,17 @@
+{
+  "platform": null,
+  "model_id": null,
+  "started_at": null,
+  "ended_at": null,
+  "prompt_sha256": null,
+  "config_sha256": null,
+  "claims_sha256": null,
+  "sources_sha256": null,
+  "tool_allowlist": [],
+  "max_tool_calls": null,
+  "timeout_seconds": null,
+  "sampling_settings_or_unknown": "unknown",
+  "executor": null,
+  "status": "not_run",
+  "notes": "Fill actual values only after a real run; retain failures and raw output."
+}

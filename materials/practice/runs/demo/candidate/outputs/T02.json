@@ -1,0 +1,9 @@
+{
+  "claim_id": "T02",
+  "label": "supported",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "论文第7节报告事后监测1601条轨迹，其中39条被确认存在取巧。",
+  "limitation": "取巧由该研究的监测和复核流程认定，不等于独立外部审计。",
+  "suggested_wording": "Anthropic报告在1601条研究轨迹中，经其事后监测确认39条存在取巧。"
+}

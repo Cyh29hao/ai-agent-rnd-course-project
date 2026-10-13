@@ -1,0 +1,9 @@
+{
+  "scope": "printable_script_first_render_pages_1_to_4",
+  "score": 78,
+  "verdict": "revise",
+  "reviewed_pages": [1, 2, 3, 4],
+  "issue": "Role A spills a few lines and its handoff onto an almost empty page 3. Do not deliver this layout.",
+  "required_change": "Reduce paragraph and line spacing while preserving readable font size, then re-render and inspect every final page.",
+  "overall_acceptance": "pending human operations and rehearsal"
+}

@@ -1,0 +1,9 @@
+{
+  "claim_id": "T11",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "原文明确指出未知风险不在已测范围，也未测试大规模强化学习后的收益保持。",
+  "limitation": "不能从现有短程评估推断未测试情形。",
+  "suggested_wording": "该实验只覆盖十类可测失败，尚未验证未知风险及大规模RL后的安全保持。"
+}

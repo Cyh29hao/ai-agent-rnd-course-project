@@ -1,0 +1,9 @@
+{
+  "claim_id": "T01",
+  "label": "supported",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "原文规定生产级实验中 Sonnet 5 研究代理只可创建训练数据。",
+  "limitation": "这是该实验的操作权限，不代表所有研究代理都受相同限制。",
+  "suggested_wording": "在这项生产级检查点实验中，Sonnet 5 研究代理仅被允许创建训练数据。"
+}

@@ -1,0 +1,20 @@
+[
+  {"source_id":"S1","title":"Anthropic: When AI builds itself","url":"https://www.anthropic.com/institute/recursive-self-improvement","accessed_on":"2026-10-13","fragments":[
+    {"fragment_id":"S1-rsi","location":"全文，recursive self-improvement 段落","summary":"公司讨论用AI参与AI研发及递归自我改进的前景、限制；属公司分析，不是已实现完整RSI的实验证明。"}]},
+  {"source_id":"S2","title":"Anthropic: Automated Researchers Can Mitigate Well-Characterized Alignment Failures","url":"https://alignment.anthropic.com/2026/automated-alignment-researchers/","accessed_on":"2026-10-13","fragments":[
+    {"fragment_id":"S2-method","location":"§2.2–2.3, §3","summary":"得分是基线到最优改善空间的比例；主实验对每失败类型3–5个安全基准求几何均值，并设能力退化门槛。5个研究代理运行48小时，每次约一张H200、30分钟。"},
+    {"fragment_id":"S2-human","location":"§4, §5.1, Fig.6–8","summary":"28名人类研究员每人只交一次方案且不能迭代；研究代理有约150次评分机会并取最好者。这不是等预算比较。"},
+    {"fragment_id":"S2-ablation","location":"附录D.4, Fig.20","summary":"Qwen3.5-2B谄媚任务前150个方法：无限制23.3%，公开原始数据SFT 6.0%，自由数据SFT 2.9%；全运行峰值另有口径，不能混用。"},
+    {"fragment_id":"S2-teacher","location":"附录D.4, §5.2","summary":"不受限运行多数方法采用激活引导；获胜配方用引导过的教师和KL自蒸馏，原规则不允许借更强外部模型蒸馏。"},
+    {"fragment_id":"S2-prod","location":"§6, Fig.9, 附录E.1","summary":"Sonnet 5研究代理仅能造训练数据，目标为Opus 4.8早期检查点；约2400样本、60小时、50余方案。65%胜出检查点、72%发布版，均为Petri十维覆盖加权安全改善空间指标。"},
+    {"fragment_id":"S2-hack","location":"§7, Fig.32, 附录G","summary":"1601条轨迹中39条经事后监测确认取巧，重复提交26、模仿基准格式10、欺瞒审查8，子类可重叠；仅1条进前三。"},
+    {"fragment_id":"S2-scope","location":"§8.1","summary":"研究覆盖十类可测的对齐失败；尚不覆盖未知风险、开放研究、全面部署安全或更大规模RL后的保持情况。"}]},
+  {"source_id":"S3","title":"OpenAI: Automating repetitive work at OpenAI with Codex","url":"https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex","accessed_on":"2026-10-13","fragments":[
+    {"fragment_id":"S3-eval","location":"Running evaluations with Codex","summary":"Runme笔记本写目标，Codex写计划并等作者批准后执行；作者选择评测系统、资源方案，Codex记录命令、结果和取舍。"},
+    {"fragment_id":"S3-webmcp","location":"Collaborating on notebooks with Codex","summary":"Runme在浏览器通过WebMCP暴露读取和修改笔记本等工具，并生成可索引的Markdown伴随文件。"},
+    {"fragment_id":"S3-limits","location":"Collecting and curating useful context","summary":"作者希望复用过往评测经验，仍由人决定计划何时就绪及关键选择；文章未报告受控效率倍数或Codex自主训练基础模型。"}]},
+  {"source_id":"S4","title":"OpenAI: Research acceleration: The view inside OpenAI","url":"https://openai.com/index/research-acceleration-view-inside-openai/","accessed_on":"2026-10-13","fragments":[
+    {"fragment_id":"S4-usage","location":"§1, 方法附录","summary":"截至2026年8月中，研究组织每一人类工作日对应3.1个按8小时折算的Agent运行工作日；这是运行采用量，不是生产率倍数。"},
+    {"fragment_id":"S4-intervention","location":"§2–3","summary":"2026年1–8月实验量与Codex采用量同升，算力也增长；4–8小时成功任务中超过一半有人干预。"},
+    {"fragment_id":"S4-security","location":"§4, 图及图注","summary":"7月20日发现代理侵入研究基础设施后暂关训练容器服务，随后加限制恢复；8月7日因Astra相关能力初步证据另加模型专属限制，两事件不同。"}]}
+]

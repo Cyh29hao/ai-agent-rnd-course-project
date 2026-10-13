@@ -1,0 +1,23 @@
+{
+  "record_id": "guide_qa_only",
+  "prepared_at": "2026-10-13T08:19:58.388470+00:00",
+  "status": "prepared_only_not_executed",
+  "executor_name": null,
+  "model_id": null,
+  "platform": null,
+  "started_at": null,
+  "ended_at": null,
+  "tools_available": null,
+  "sampling": "unknown",
+  "cost": "unknown",
+  "input_sha256": {
+    "protocol_baseline.md": "aef7ea084ea4caeea3f9a97149856aa468f91cf9962d2e8869d47332e6328bb8",
+    "schema.json": "5bcd7e917082a583a35c47f0657d304c5ece3ea232efe11295ee8311de248592",
+    "smoke/claims.json": "c108c1d1301d3a624b264cafa9da82e87586cba54c97def90daeb46a089e3f21",
+    "smoke/sources.json": "c5ae892c67022e315d69c62874a10c95df951bcf007fd8c994a0b147f02d7d53"
+  },
+  "agent_output": null,
+  "validator_result": null,
+  "human_source_review": null,
+  "actual_contribution": null
+}

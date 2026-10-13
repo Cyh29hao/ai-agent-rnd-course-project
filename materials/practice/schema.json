@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence review result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["claim_id", "label", "source_id", "fragment_id", "rationale", "limitation", "suggested_wording"],
+  "properties": {
+    "claim_id": {"type": "string", "minLength": 1},
+    "label": {"enum": ["supported", "overstated", "contradicted", "insufficient"]},
+    "source_id": {"type": "string", "minLength": 1},
+    "fragment_id": {"type": "string", "minLength": 1},
+    "rationale": {"type": "string", "minLength": 1},
+    "limitation": {"type": "string", "minLength": 1},
+    "suggested_wording": {"type": "string", "minLength": 1}
+  }
+}

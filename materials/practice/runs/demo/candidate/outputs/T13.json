@@ -1,0 +1,9 @@
+{
+  "claim_id": "T13",
+  "label": "insufficient",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "论文说明胜出方案约有2400条训练样本，但给定材料未证明其逐条完整内容已公开。",
+  "limitation": "未完成对所有可能附件或外部仓库的穷尽检索，缺少可核对的逐条公开清单。",
+  "suggested_wording": "Anthropic报告胜出方案使用约2400条训练样本；是否逐条公开完整内容，现有材料无法确定。"
+}

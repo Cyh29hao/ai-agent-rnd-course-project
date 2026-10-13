@@ -1,0 +1,15 @@
+[
+  {
+    "source_id": "T1",
+    "title": "Automating repetitive work at OpenAI with Codex",
+    "url": "https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex",
+    "accessed_on": "2026-10-13",
+    "fragments": [
+      {
+        "fragment_id": "T1-run-evals-plan",
+        "location": "Running evaluations with Codex, goal cell and following two paragraphs",
+        "summary": "作者让 Codex 先在 Runme 笔记本写详细计划，并等待人工审阅批准后才开始执行评测；作者还参与选择评测系统与资源。"
+      }
+    ]
+  }
+]

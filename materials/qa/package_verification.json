@@ -1,0 +1,262 @@
+{
+  "verified_at": "2026-10-13T10:13:38.952326+00:00",
+  "machine_checks": [
+    {
+      "check": "main_count_and_time",
+      "passed": true,
+      "detail": "14 main pages, 550 allocated seconds; this is allocation, not human rehearsal"
+    },
+    {
+      "check": "speaker_allocations",
+      "passed": true,
+      "detail": "A150 B150 C130 D120"
+    },
+    {
+      "check": "backups_exist",
+      "passed": true,
+      "detail": "35 slides, 21 backup pages"
+    },
+    {
+      "check": "current_ppt_is_exported_source",
+      "passed": true,
+      "detail": "Source hash captured before PowerPoint export; not inferred from page count"
+    },
+    {
+      "check": "current_full_pdf_is_exported_pdf",
+      "passed": true,
+      "detail": "Exported PDF hash agrees with current file"
+    },
+    {
+      "check": "current_main_pdf_and_png_source",
+      "passed": true,
+      "detail": "Rendering and first 14-page PDF derived from this full PDF"
+    },
+    {
+      "check": "rendered_png_hashes_current",
+      "passed": true,
+      "detail": {
+        "drift": [],
+        "pages": 35
+      }
+    },
+    {
+      "check": "main_pages_render_identically_to_full_prefix",
+      "passed": true,
+      "detail": {
+        "mismatch_pages": []
+      }
+    },
+    {
+      "check": "notes_match_current_script",
+      "passed": true,
+      "detail": {
+        "mismatching_pages": []
+      }
+    },
+    {
+      "check": "script_markdown_matches_current_content",
+      "passed": true,
+      "detail": "All 14 spoken passages match the content source and PPT notes"
+    },
+    {
+      "check": "02_主讲版.pdf",
+      "passed": true,
+      "detail": {
+        "pages": 14,
+        "expected": 14
+      }
+    },
+    {
+      "check": "02_主讲版.pdf_text",
+      "passed": true,
+      "detail": {
+        "empty_or_replacement_glyph_pages": []
+      }
+    },
+    {
+      "check": "03_完整备份版.pdf",
+      "passed": true,
+      "detail": {
+        "pages": 35,
+        "expected": 35
+      }
+    },
+    {
+      "check": "03_完整备份版.pdf_text",
+      "passed": true,
+      "detail": {
+        "empty_or_replacement_glyph_pages": []
+      }
+    },
+    {
+      "check": "report_pages",
+      "passed": true,
+      "detail": {
+        "pages": 8
+      }
+    },
+    {
+      "check": "report_key_content",
+      "passed": true,
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "check": "docx_chinese",
+      "passed": true,
+      "detail": "Read DOCX stored text with python-docx"
+    },
+    {
+      "check": "printable_handbook_current_and_reviewed",
+      "passed": true,
+      "detail": "12 pages reviewed; sources and exported bytes agree; all 14 spoken passages preserved. Human rehearsal pending"
+    },
+    {
+      "check": "report_matches_visually_reviewed_hashes",
+      "passed": true,
+      "detail": {
+        "changed_since_latest_report_review": []
+      }
+    },
+    {
+      "check": "member_names_synced",
+      "passed": true,
+      "detail": {
+        "members": [
+          "陈云海",
+          "张程翔",
+          "赵金城",
+          "曹天卓"
+        ],
+        "roles_not_assigned": true
+      }
+    },
+    {
+      "check": "no_group_number_field_on_cover",
+      "passed": true,
+      "detail": "User confirmed there is no group number"
+    },
+    {
+      "check": "embedded_mp4",
+      "passed": true,
+      "detail": {
+        "media_parts": [
+          "ppt/media/media1.mp4",
+          "ppt/media/media2.mp4"
+        ]
+      }
+    },
+    {
+      "check": "embedded_movies_match_decoded_originals",
+      "passed": true,
+      "detail": "Embedded byte hashes match the two original decoded videos"
+    },
+    {
+      "check": "demo_actual_score",
+      "passed": true,
+      "detail": {
+        "baseline": {
+          "total": 16,
+          "valid_outputs": 16,
+          "label_correct": 13,
+          "false_release": 0,
+          "location_correct": null
+        },
+        "candidate": {
+          "total": 16,
+          "valid_outputs": 16,
+          "label_correct": 12,
+          "false_release": 0,
+          "location_correct": null
+        }
+      }
+    },
+    {
+      "check": "frozen_experiment_files_unchanged",
+      "passed": true,
+      "detail": {
+        "drift": []
+      }
+    },
+    {
+      "check": "original_public_trace_baseline",
+      "passed": true,
+      "detail": {
+        "calls": 10,
+        "receipts": 10,
+        "whitelist_and_call_ids_verified": true,
+        "count_boundary": "Not billing or efficiency measurements"
+      }
+    },
+    {
+      "check": "original_public_trace_candidate",
+      "passed": true,
+      "detail": {
+        "calls": 13,
+        "receipts": 13,
+        "whitelist_and_call_ids_verified": true,
+        "count_boundary": "Not billing or efficiency measurements"
+      }
+    },
+    {
+      "check": "guide_record_not_student_identity_guide_qa_only",
+      "passed": true,
+      "detail": {
+        "record": "guide_qa_only",
+        "executor": null,
+        "status": "prepared_only_not_executed"
+      }
+    },
+    {
+      "check": "guide_record_not_student_identity_guide_agent_qa",
+      "passed": true,
+      "detail": {
+        "record": "guide_agent_qa",
+        "executor": "制作代理教程复现",
+        "status": "guide_agent_qa_executed"
+      }
+    },
+    {
+      "check": "actual_video_decode_smoke",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "decoder": "Windows WPF MediaPlayer",
+        "decoded": true,
+        "samples": [
+          0.1,
+          9,
+          17.5
+        ],
+        "duration": 18,
+        "height": 1080
+      }
+    },
+    {
+      "check": "actual_video_decode_anthropic",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "decoder": "Windows WPF MediaPlayer",
+        "decoded": true,
+        "samples": [
+          0.1,
+          5,
+          9.5
+        ],
+        "duration": 10,
+        "height": 1080
+      }
+    }
+  ],
+  "machine_pass": true,
+  "human_pending": [
+    "Four students personally operate and confirm contribution",
+    "Human source-location audit and gold-label arbitration",
+    "Four-person continuous timed rehearsal including media and handoffs",
+    "Offline playback on classroom presentation computer",
+    "Latest course deadline and submission format"
+  ],
+  "overall_acceptance": "NOT COMPLETE: machine verification does not replace visual, factual or human acceptance"
+}

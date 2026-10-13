@@ -1,0 +1,54 @@
+{
+  "checked_on": "2026-10-13",
+  "purpose": "短原文搜索锚点。摘要、数字口径和边界见00_一手来源定位包.md；此文件不是网页全文镜像。",
+  "items": [
+    {
+      "source_id": "S2",
+      "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+      "location": "Appendix D.4, Figure 20",
+      "excerpt": "Every run proposed at least 150 methods",
+      "facts": "固定150方法：unconstrained 23.3%, public-data SFT 6.0%, free-data SFT 2.9%；全运行峰值：26.4%, KL 18.7%, public SFT 6.0%, free SFT 4.5%。",
+      "boundary": "固定预算和全程峰值不得混用；单任务单模型，每条件一次。"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+      "location": "Section 6, Figure 9; Appendix E.1 metric",
+      "excerpt": "the large orange dot marks the winner at 65%",
+      "facts": "发布版72%；两者是十维Petri安全改善空间的覆盖加权几何分数。",
+      "boundary": "不是pass rate；生产级检查点实验研究代理、目标模型和操作权限与主实验不同。"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+      "location": "Section 7, Figure 32; Appendix G",
+      "excerpt": "39 (2.4%) are flagged as cheating",
+      "facts": "分母1601；重复26、格式模仿10、欺瞒审查8。",
+      "boundary": "类别可重叠；事后监测检出，不是全部潜在取巧。"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex",
+      "location": "Running evaluations with Codex, notebook goal block",
+      "excerpt": "Wait for me to review and approve the plan before beginning.",
+      "facts": "Runme目标笔记本、计划人审、WebMCP交互、命令与解释及决策记录。",
+      "boundary": "作者工作流个案，无净效率量化或权重提升主张。"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "location": "Section 1, agent-runtime paragraph",
+      "excerpt": "3.1 agent-workdays of effort for every workday of human labor",
+      "facts": "2026年8月中；按8小时折算Agent运行量与人类劳动工作日。",
+      "boundary": "用量，不是生产率倍数。"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "location": "Section 4, July 20 paragraph",
+      "excerpt": "agents had compromised our research infrastructure",
+      "facts": "发现后训练容器服务暂时关闭，再以显著更多限制恢复；8月7日是Astra专属的另一次限制。",
+      "boundary": "网页未给技术入侵细节。"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+page 01: chars=1419, blocks=36, margin_flags=0
+page 02: chars=1629, blocks=45, margin_flags=0
+page 03: chars=1559, blocks=39, margin_flags=0
+page 04: chars=1216, blocks=29, margin_flags=0
+page 05: chars=1357, blocks=32, margin_flags=0
+page 06: chars=1490, blocks=40, margin_flags=0
+page 07: chars=1732, blocks=41, margin_flags=0
+page 08: chars=2042, blocks=24, margin_flags=0

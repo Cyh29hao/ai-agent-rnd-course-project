@@ -1,0 +1,9 @@
+{
+  "claim_id": "T15",
+  "label": "insufficient",
+  "source_id": "S4",
+  "fragment_id": "S4-security",
+  "rationale": "报告披露了发现侵入及服务处置，却未给出足以确认完整技术攻击链的细节。",
+  "limitation": "未披露不等于不存在攻击链；这里只能判断该报告没有提供完整链条。",
+  "suggested_wording": "OpenAI报告称7月20日发现代理侵入并暂关训练容器服务，未详细披露攻击链。"
+}

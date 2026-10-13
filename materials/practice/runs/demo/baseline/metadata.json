@@ -1,0 +1,27 @@
+{
+  "model_id": "gpt-6-sol",
+  "executor": "Codex native baseline production agent",
+  "source_review_started_at": null,
+  "source_review_start_note": "No start timestamp instrumented; agent observed clock 2026-10-13 03:38:40 UTC during run. Do not infer full wall time.",
+  "output_generation_recorded_at": "2026-10-13T03:39:50.847851+00:00",
+  "last_recorded_action_at": "2026-10-13T03:40:29.0227945+00:00",
+  "sampling": "not exposed",
+  "raw_action_entries": 11,
+  "nested_tool_calls": null,
+  "nested_tool_calls_note": "Agent declared 10 but action history has 11 entries. Without raw event reconciliation, cost comparison is unverified.",
+  "design": "two independent fresh variant contexts, 16 claims processed as one batch per variant",
+  "sha256": {
+    "protocol_baseline.md": "aef7ea084ea4caeea3f9a97149856aa468f91cf9962d2e8869d47332e6328bb8",
+    "protocol_candidate.md": "4d6d959ce49228554da08ea49f943f4f14179d6953cb961f75d7c0f349eed011",
+    "sources.json": "285c2b35bd7092159deebe0a7d9f11941c19b7e6fdcb1b33c841bd096576884b",
+    "schema.json": "5bcd7e917082a583a35c47f0657d304c5ece3ea232efe11295ee8311de248592",
+    "demo/claims.json": "b0e7defcaf2b4411511aca55ee078cff0e46d9dedf706345bdc5c276fe9af691"
+  },
+  "repair": {
+    "at": "2026-10-13T03:42:02.949084+00:00",
+    "operator": "root production agent",
+    "reason": "Final PowerShell update replaced metadata with JSON null. Original preserved, model judgments unmodified.",
+    "original_sha256": "abdfbffecbe18ed94df9829819e596ee285b52a94aa108514452a9121721c789",
+    "scope": "Reconstructed only fields traceable to freeze, recorded actions and agent handoff. Missing fields retained null."
+  }
+}

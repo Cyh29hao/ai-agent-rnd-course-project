@@ -1,0 +1,9 @@
+{
+  "claim_id": "smoke-01",
+  "label": "supported",
+  "source_id": "T1",
+  "fragment_id": "T1-run-evals-plan",
+  "rationale": "原文描述作者要求 Codex 写计划并等其审阅批准后开始。",
+  "limitation": "这是作者叙述的一个工作流实例，不代表所有 OpenAI 评测都如此操作。",
+  "suggested_wording": "在该 Runme 评测实例中，Codex 先写计划，作者审阅批准后再执行。"
+}

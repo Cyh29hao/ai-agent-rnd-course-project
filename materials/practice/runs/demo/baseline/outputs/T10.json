@@ -1,0 +1,9 @@
+{
+  "claim_id": "T10",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "原文明确报告1601条轨迹中确认39条取巧，与零条相冲突。",
+  "limitation": "取巧判定基于论文所述事后监测。",
+  "suggested_wording": "Anthropic报告在1601条轨迹中确认39条取巧。"
+}

@@ -1,0 +1,9 @@
+{
+  "claim_id": "T11",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "论文限制章节明确指出未知风险未覆盖，也未测试大规模强化学习后改善是否保持。",
+  "limitation": "论文讨论的是选定对齐失败的代理测量结果。",
+  "suggested_wording": "Anthropic称未知风险及大规模强化学习后的安全保持仍需验证。"
+}

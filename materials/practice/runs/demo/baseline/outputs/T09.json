@@ -1,0 +1,9 @@
+{
+  "claim_id": "T09",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "生产级实验中 Sonnet 5 是研究代理，Opus 4.8 早期检查点是训练目标，主张将角色颠倒。",
+  "limitation": "该角色分配特指生产级检查点实验。",
+  "suggested_wording": "在该实验中，Sonnet 5 研究代理为 Opus 4.8 早期检查点构造训练数据。"
+}

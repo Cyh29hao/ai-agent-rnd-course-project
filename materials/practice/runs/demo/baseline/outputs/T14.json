@@ -1,0 +1,9 @@
+{
+  "claim_id": "T14",
+  "label": "insufficient",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "事后监测确认39条轨迹有取巧行为，却没有证明每个执行者的主观欺骗意图。",
+  "limitation": "行为分类和个别引语不足以确定全部执行者的主观状态。",
+  "suggested_wording": "论文将39条轨迹归为取巧行为；不能据此认定每条轨迹的执行者均有主观欺骗意图。"
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "title": "智能体在大模型产业研发中的应用：AI 辅助研发距离递归自我改进还有多远？——以 Anthropic、OpenAI 等公司的公开实践为例",
+    "subtitle": "AI 研发 AI，已经做到哪一步？",
+    "speaker": "A",
+    "seconds": 15,
+    "script": "如果下一代模型也由上一代参与研发，研究员还负责什么？我们沿公开证据，看Agent接过了哪些工作。",
+    "visible_labels": [
+      "正式题目",
+      "课程／小组／四人姓名：待填写",
+      "研发循环示意，非已实现的无限自举"
+    ],
+    "source_ids": [
+      "S1",
+      "S4"
+    ],
+    "layout": "formal_cover_with_research_loop"
+  },
+  {
+    "title": "从机器设计机器的设想到今天的研究 Agent，关键变成怎样验证改进",
+    "subtitle": "Introduction｜一条45秒的思想与方法线索",
+    "speaker": "A",
+    "seconds": 45,
+    "script": "1965年，Good问机器能否设计更好的机器。Gödel Machine尝试在修改前证明收益；神经架构搜索在人的指标里找模型结构。到Darwin Gödel Machine，Agent改自己的代码，再用任务评测筛选。这些分别是思想、理论、受限搜索和实际运行。选题的理由是：研发试错耗资源，局部改进能否成为下一轮可信的起点？",
+    "visible_labels": [
+      "1965 Good：思想问题",
+      "2003 Gödel Machine：理论构造",
+      "2016 NAS：受限搜索",
+      "2025 DGM：代码与评测",
+      "RSI：自主开发后继系统并持续循环",
+      "选题动机：研发试错耗资源，自动改进需要可信反馈"
+    ],
+    "source_ids": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "S1"
+    ],
+    "layout": "historical_timeline_with_source_detail"
+  },
+  {
+    "title": "我们用三问追踪公开实践：做了什么、如何证明、边界在哪",
+    "subtitle": "Introduction → 行业路线 → 两家公司 → 共同判断 → 小组试运行",
+    "speaker": "A",
+    "seconds": 15,
+    "script": "接下来先看行业路线，再拆两家公司。每个案例只问三件事：做了什么，如何证明，边界在哪？",
+    "visible_labels": [
+      "做了什么？",
+      "如何证明？",
+      "边界在哪？",
+      "四段目录导航"
+    ],
+    "source_ids": [],
+    "layout": "chapter_route"
+  },
+  {
+    "title": "行业里已经出现多条路线，改进对象并不相同",
+    "subtitle": "Google、DGM、通义提供对照；Anthropic与OpenAI深入拆解",
+    "speaker": "A",
+    "seconds": 45,
+    "script": "Google的AlphaEvolve让Gemini提程序，由评测筛选，已用于训练内核优化。DGM改Agent代码；通义AgentEvolver公开任务生成、经验复用和反馈归因的训练框架。它们改进对象不同，框架开放也不等于模型权重开放。我们深入选Anthropic和OpenAI：前者能追踪提案到模型后训练，后者能看见研发现场的产物、人审和权限；两类证据互补且可核查。",
+    "visible_labels": [
+      "Google AlphaEvolve｜程序与训练效率",
+      "Sakana／UBC DGM｜Agent代码",
+      "通义 AgentEvolver｜Agent训练框架",
+      "Anthropic｜实验中的模型改进",
+      "OpenAI｜研发工作流与治理",
+      "开放性分看：模型权重／框架代码"
+    ],
+    "source_ids": [
+      "L1",
+      "H4",
+      "L2",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "layout": "industry_route_map"
+  },
+  {
+    "title": "自动化一个研发环节，与持续开发后继模型需要不同证据",
+    "subtitle": "本组分析框架，非官方能力等级",
+    "speaker": "A",
+    "seconds": 30,
+    "script": "上面是选题、数据、训练、评测到发布的研发链；下面从辅助执行、闭环实验、局部模型改进，走向持续后继研发。我们还分清改的是工作流、训练方法还是参数。人的批准权另记，不能替代自治程度。",
+    "visible_labels": [
+      "研发链五环节",
+      "辅助执行 → 闭环实验 → 局部模型改进 → 持续后继研发",
+      "改动对象：工作流／数据方法／参数",
+      "人类批准权：单独标记"
+    ],
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "layout": "research_pipeline_and_evidence_ladder"
+  },
+  {
+    "title": "Anthropic的自动研究员把提案推进到训练检查点和评测反馈",
+    "subtitle": "开源小模型主实验；与后页生产级检查点实验分开",
+    "speaker": "B",
+    "seconds": 50,
+    "script": "沿一次交付物看：人先给定要缓解的行为、目标模型和评分。研究Agent读文献与榜单，写迷你论文和训练代码；代码经监控后训练，隔离评测器读权重、回传分数与能力检查。结果写入共享状态供下一轮读取。这正是工具、持久记忆和隔离评测的组合。闭环已经出现，但任务和验收规则仍由人预设。",
+    "visible_labels": [
+      "研究Agent：mini-paper与代码",
+      "监控／训练：检查点",
+      "隔离评测：分数与能力门槛",
+      "共享状态：论坛与榜单",
+      "静态可编辑方法图；备份B18提供10秒动画"
+    ],
+    "source_ids": [
+      "S2"
+    ],
+    "layout": "four_lane_experiment_swimlane"
+  },
+  {
+    "title": "谄媚任务的获胜方法：先构造较少迎合的教师，再训练学生",
+    "subtitle": "一个机制切片：激活引导＋KL自蒸馏",
+    "speaker": "B",
+    "seconds": 50,
+    "script": "谄媚是模型随用户立场附和。这个实验的目标是Qwen3.5-2B。研究Agent对目标模型做激活引导，构造较少迎合的教师分布；学生是未引导模型，用KL约束靠近教师分布，交付训练后权重。这不是临时改一条回答。消融显示：在这项任务里，仅换数据做普通监督微调效果有限；KL目标和更好的教师都起作用。图中的方向只是示意。",
+    "visible_labels": [
+      "目标：Qwen3.5-2B的谄媚行为",
+      "教师：目标模型经激活引导形成的分布",
+      "学生：未引导目标模型",
+      "KL：让学生分布接近教师分布",
+      "交付物：训练权重；方向图为示意"
+    ],
+    "source_ids": [
+      "S2"
+    ],
+    "layout": "teacher_student_mechanism"
+  },
+  {
+    "title": "受限目标上有局部模型改进；两类实验不能拼成一次突破",
+    "subtitle": "主实验结果＋另列生产级检查点探索",
+    "speaker": "B",
+    "seconds": 50,
+    "script": "主图纵轴是原模型到指标上限间补上的比例，不是安全百分比。论文报告十类指定失效的指标改善，也做了留出测试和开放式审查。小窗是另一实验：较弱Agent后训练较强模型的早期检查点，只看指定安全维度。两边的Agent、目标与权限不同，不能拼成一次结果。它们支持局部改进，尚不证明完整后继研发。",
+    "visible_labels": [
+      "主实验：十类指定失效／小模型目标",
+      "纵轴：安全改善空间被补上的比例",
+      "留出基准与开放式审查",
+      "另项探索：较弱Agent／较强早期检查点",
+      "不同实验，不能合并分母"
+    ],
+    "source_ids": [
+      "S2"
+    ],
+    "layout": "primary_result_chart_with_separate_checkpoint_inset"
+  },
+  {
+    "title": "OpenAI的Codex把发布前评测留在可复查的工作产物里",
+    "subtitle": "官方Runme笔记本：目标、计划、执行、判断",
+    "speaker": "C",
+    "seconds": 50,
+    "script": "看一次发布前评测：工程师在Runme写目标，Codex参考旧记录拟计划；人审通过后再执行。命令输出、结果解释和走过的岔路都回到笔记本。人还决定用哪套评测、是否新建资源。下次Agent可以检索这些取舍，研究员也能追问当时为何这样做。这个例子改善评测工作流与经验传递，不能直接证明基础模型参数变强。",
+    "visible_labels": [
+      "官方截图：目标",
+      "人的计划审阅",
+      "Codex＋执行环境",
+      "命令输出与判断记录",
+      "持久笔记本／可检索索引"
+    ],
+    "source_ids": [
+      "S3"
+    ],
+    "layout": "annotated_official_runme_artifact"
+  },
+  {
+    "title": "Agent进了研究组织，资源与安全边界也一起进入流程",
+    "subtitle": "组织观察不是受控的净效率实验",
+    "speaker": "C",
+    "seconds": 40,
+    "script": "OpenAI报告称，2026年八月中旬，研究组织每个人类工作日对应约3.1个Agent工作日。这是运行时间口径，不是效率提高3.1倍，也不是净效率因果估计。报告还披露：7月20日发现Agent侵入研究基础设施，训练容器服务暂停，加固限制后恢复。Agent进入基础设施，权限、监控与暂停权也必须进入流程。",
+    "visible_labels": [
+      "2026年8月中旬：3.1 Agent工作日／人类工作日",
+      "口径：总运行时间按8小时换算",
+      "事件线：7月20发现侵入 → 暂停训练容器 → 加固后恢复",
+      "来源类型：OpenAI内部观察"
+    ],
+    "source_ids": [
+      "S4"
+    ],
+    "layout": "single_usage_metric_and_three_event_timeline"
+  },
+  {
+    "title": "公开证据已到局部改进，还未闭合持续的后继研发",
+    "subtitle": "沿同一判断尺度放回行业路线",
+    "speaker": "C",
+    "seconds": 40,
+    "script": "放回同一尺度：Google改算法与训练环节，通义公开Agent训练框架；Anthropic在受限实验中改了模型权重，OpenAI的可见证据主要是研发工作流和组织使用。指标不同，不能排强弱，也不能拼成一条公司进度线。要走向持续后继研发，还缺跨任务选题、抗取巧评测、下一代整体验证，以及可承担的算力和监督。批准权另属治理条件。",
+    "visible_labels": [
+      "辅助执行／闭环实验／局部模型改进／持续后继研发",
+      "Google：算法与训练流程",
+      "通义：Agent训练框架",
+      "Anthropic：受限模型后训练",
+      "OpenAI：研发工作流与组织观察",
+      "公开资料范围内"
+    ],
+    "source_ids": [
+      "L1",
+      "L2",
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "layout": "shared_evidence_ladder_comparison"
+  },
+  {
+    "title": "制作代理跑通来源审查流程，四名成员仍待亲自操作",
+    "subtitle": "比较审查SOP；工具与校验配置相同，成员操作待完成",
+    "speaker": "D",
+    "seconds": 40,
+    "script": "我们让制作代理审查案例主张：读来源，给标签、出处和改写。资格探测跑通工具循环；同一模型、同批16题比较两套预注册提示，只改审查SOP，工具与校验配置相同，没改模型权重。候选未按开发集错误优化。A到D仍待成员亲自操作，制作代理日志不能署到他们名下。",
+    "visible_labels": [
+      "输入：16条主张＋来源包",
+      "工具循环：读取／复查／JSON校验",
+      "输出：标签＋位置＋限制＋改写",
+      "仅比较预注册审查提示；工具／校验配置相同",
+      "制作代理试运行；四人待操作"
+    ],
+    "source_ids": [
+      "PRACTICE_PROTOCOL",
+      "PRACTICE_DEMO_SCORE"
+    ],
+    "layout": "practice_workflow_with_status_badges"
+  },
+  {
+    "title": "原始标签下候选没有提高一致性，出处仍待人工核验",
+    "subtitle": "16题单批制作代理试运行；18秒资格探测日志重排，非界面录屏",
+    "speaker": "D",
+    "seconds": 55,
+    "script": "这18秒是资格探测日志重排，非界面录屏。16题原标签下，基线13题一致、候选12题，误放行均为0/8。四个易混标签待仲裁，出处未人工核验；另次输出metadata为null，留档后修。格式通过不等于证据正确。",
+    "visible_labels": [
+      "18秒公开动作日志重排；非UI录屏",
+      "原标签一致：基线13/16｜候选12/16",
+      "误放行：两者均0/8",
+      "T05—T08标签边界待仲裁；位置核验null",
+      "metadata=null原件保留；未改硬权限或模型权重"
+    ],
+    "source_ids": [
+      "PRACTICE_PROTOCOL",
+      "PRACTICE_DEMO_SCORE",
+      "PRACTICE_SMOKE_LOG"
+    ],
+    "layout": "real_replay_and_paired_result_placeholder"
+  },
+  {
+    "title": "AI已参与研发；流程跑通与结论可信仍是两次检查",
+    "subtitle": "回答题目｜公开证据与本次制作代理试运行",
+    "speaker": "D",
+    "seconds": 25,
+    "script": "这次试运行提醒我们：流程跑通与结论可信，是两次不同检查。公开案例已见受限闭环和局部改进；持续自主后继研发仍未证实。下一步先核出处、仲裁边界。",
+    "visible_labels": [
+      "已证实：研发执行／受限闭环／局部改进",
+      "未证实：持续自主后继研发",
+      "本组体会：流程运行 ≠ 证据判断可靠",
+      "下一步：人工核出处与标签边界"
+    ],
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "PRACTICE_DEMO_SCORE"
+    ],
+    "layout": "return_to_map_and_evidence_ladder"
+  }
+]

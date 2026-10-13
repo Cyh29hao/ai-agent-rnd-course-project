@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-10-13T09:14:49.084269+00:00",
+  "variants": {
+    "baseline": {
+      "source_trace_id": "01a13356-ee55-7042-80f5-d141c3dbdfb0",
+      "source_trace_sha256_at_capture": "de691019e88dccaae740c5f48b7f78d9eb0e9559d79e8e73a6f1a7192328f515",
+      "model_identifier_from_session_metadata": "gpt-6-sol",
+      "public_call_records": 10,
+      "exec_wrapper_calls": 9,
+      "other_call_tools": [
+        "send_message"
+      ],
+      "nested_reference_count": 10,
+      "count_boundary": "Nested references are static source inspection, not an SDK billing meter. Communication calls are recorded separately. No reasoning or conversation-message bodies are exported.",
+      "tool_receipts": 10,
+      "event_timestamp_boundary": "Timestamps belong to recorded events; they are not a separately instrumented wall-clock performance benchmark."
+    },
+    "candidate": {
+      "source_trace_id": "01a13357-23ac-7ef0-8bdf-467cc2085dbb",
+      "source_trace_sha256_at_capture": "b73dd746cdcc0b01461ba1964406d17773658f9260c2735d7c097cdc6977d92b",
+      "model_identifier_from_session_metadata": "gpt-6-sol",
+      "public_call_records": 13,
+      "exec_wrapper_calls": 10,
+      "other_call_tools": [
+        "send_message",
+        "send_message",
+        "send_message"
+      ],
+      "nested_reference_count": 10,
+      "count_boundary": "Nested references are static source inspection, not an SDK billing meter. Communication calls are recorded separately. No reasoning or conversation-message bodies are exported.",
+      "tool_receipts": 13,
+      "event_timestamp_boundary": "Timestamps belong to recorded events; they are not a separately instrumented wall-clock performance benchmark."
+    }
+  },
+  "note": "Original public calls add provenance to retrospective action summaries. They do not establish student participation, OS isolation, correct gold labels or net efficiency."
+}

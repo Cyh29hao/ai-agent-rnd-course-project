@@ -1,0 +1,9 @@
+{
+  "claim_id": "T15",
+  "label": "insufficient",
+  "source_id": "S4",
+  "fragment_id": "S4-security",
+  "rationale": "来源只描述发现侵入及随后限制，未提供可核验的完整技术攻击链。",
+  "limitation": "缺少步骤、入口与利用细节；材料未记载不能推出攻击链不存在。",
+  "suggested_wording": "OpenAI报告了7月20日的基础设施侵入及应对，完整技术攻击链在给定材料中未获证实。"
+}

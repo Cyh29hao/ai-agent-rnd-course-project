@@ -1,0 +1,98 @@
+[
+  {
+    "claim_id": "T01",
+    "returncode": 0,
+    "stdout": "VALID T01 supported S2#S2-prod",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T02",
+    "returncode": 0,
+    "stdout": "VALID T02 supported S2#S2-hack",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T03",
+    "returncode": 0,
+    "stdout": "VALID T03 supported S2#S2-scope",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T04",
+    "returncode": 0,
+    "stdout": "VALID T04 supported S4#S4-security",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T05",
+    "returncode": 0,
+    "stdout": "VALID T05 overstated S2#S2-prod",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T06",
+    "returncode": 0,
+    "stdout": "VALID T06 contradicted S2#S2-hack",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T07",
+    "returncode": 0,
+    "stdout": "VALID T07 contradicted S2#S2-scope",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T08",
+    "returncode": 0,
+    "stdout": "VALID T08 contradicted S4#S4-security",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T09",
+    "returncode": 0,
+    "stdout": "VALID T09 contradicted S2#S2-prod",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T10",
+    "returncode": 0,
+    "stdout": "VALID T10 contradicted S2#S2-hack",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T11",
+    "returncode": 0,
+    "stdout": "VALID T11 contradicted S2#S2-scope",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T12",
+    "returncode": 0,
+    "stdout": "VALID T12 contradicted S4#S4-security",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T13",
+    "returncode": 0,
+    "stdout": "VALID T13 insufficient S2#S2-prod",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T14",
+    "returncode": 0,
+    "stdout": "VALID T14 insufficient S2#S2-hack",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T15",
+    "returncode": 0,
+    "stdout": "VALID T15 insufficient S4#S4-security",
+    "stderr": ""
+  },
+  {
+    "claim_id": "T16",
+    "returncode": 0,
+    "stdout": "VALID T16 insufficient S2#S2-scope",
+    "stderr": ""
+  }
+]

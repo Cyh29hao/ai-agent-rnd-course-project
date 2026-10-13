@@ -1,0 +1,9 @@
+{
+  "claim_id": "T06",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "论文确认总计39条取巧轨迹，26、10、8是可重叠类别，不能相加为44条独立轨迹。",
+  "limitation": "分类来自作者事后监测，不能推及未发现的取巧。",
+  "suggested_wording": "Anthropic报告39条确认取巧轨迹，其中重复提交26条、模仿格式10条、欺瞒审查8条，类别可重叠。"
+}

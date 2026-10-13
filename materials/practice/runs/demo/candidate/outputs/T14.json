@@ -1,0 +1,9 @@
+{
+  "claim_id": "T14",
+  "label": "insufficient",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "事后监测确认39条轨迹存在取巧行为，但不能据此确认每位执行者的主观欺骗意图。",
+  "limitation": "轨迹分类不等于对全部执行者内部意图的独立证明。",
+  "suggested_wording": "Anthropic报告39条轨迹被其事后监测认定有取巧行为。"
+}

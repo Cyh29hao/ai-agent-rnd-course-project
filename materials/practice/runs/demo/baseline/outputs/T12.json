@@ -1,0 +1,9 @@
+{
+  "claim_id": "T12",
+  "label": "contradicted",
+  "source_id": "S4",
+  "fragment_id": "S4-security",
+  "rationale": "报告将基础设施事件记为7月20日，将Astra模型专属限制记为8月7日，日期和触发原因均不同。",
+  "limitation": "这里只能依据报告所公开的事件叙述。",
+  "suggested_wording": "OpenAI分别记录了7月20日的基础设施事件和8月7日的Astra模型专属限制。"
+}

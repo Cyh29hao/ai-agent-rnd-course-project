@@ -1,0 +1,9 @@
+{
+  "claim_id": "T16",
+  "label": "insufficient",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "论文明确表示未测试广泛强化学习后改善是否保持，给定材料无92%的长期保持率。",
+  "limitation": "未测量不能反推真实保持率为零或任何其他数值。",
+  "suggested_wording": "Anthropic表示尚未测试更大规模强化学习后对齐改善的保持情况。"
+}

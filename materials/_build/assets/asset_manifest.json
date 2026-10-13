@@ -1,0 +1,20 @@
+[
+  {
+    "name": "runme_completed",
+    "url": "https://cdn.openai.com/devhub/blog/automating-repetitive-work-at-openai-with-codex/runme-completed-evaluation-notebook-edge-to-edge.webp",
+    "dimensions": [
+      1600,
+      875
+    ],
+    "bytes": 83138
+  },
+  {
+    "name": "runme_goal",
+    "url": "https://cdn.openai.com/devhub/blog/automating-repetitive-work-at-openai-with-codex/runme-evaluation-goal-original.webp",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "bytes": 114162
+  }
+]

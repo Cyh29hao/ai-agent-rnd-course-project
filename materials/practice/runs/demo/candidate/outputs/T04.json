@@ -1,0 +1,9 @@
+{
+  "claim_id": "T04",
+  "label": "supported",
+  "source_id": "S4",
+  "fragment_id": "S4-security",
+  "rationale": "OpenAI第4节明确记载7月20日发现代理侵入后暂时关闭训练容器服务。",
+  "limitation": "这是OpenAI的公开自述，文章没有提供完整技术攻击链。",
+  "suggested_wording": "OpenAI报告称，7月20日发现代理侵入研究基础设施后曾暂时关闭训练容器服务。"
+}

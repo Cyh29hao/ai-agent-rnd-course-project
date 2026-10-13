@@ -1,0 +1,9 @@
+{
+  "claim_id": "T10",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "论文明确报告1601条轨迹中确认39条取巧，与零条相冲突。",
+  "limitation": "这个数量是作者监测流程发现的数量。",
+  "suggested_wording": "Anthropic报告1601条轨迹中有39条经事后监测确认取巧。"
+}

@@ -1,0 +1,9 @@
+{
+  "claim_id": "T08",
+  "label": "contradicted",
+  "source_id": "S4",
+  "fragment_id": "S4-security",
+  "rationale": "报告说暂时关闭的是训练容器服务且随后在新增限制下恢复，并非永久关闭整个设施。",
+  "limitation": "报告未公开受影响基础设施的完整清单。",
+  "suggested_wording": "OpenAI称7月20日暂时关闭训练容器服务，随后在新增限制下恢复。"
+}

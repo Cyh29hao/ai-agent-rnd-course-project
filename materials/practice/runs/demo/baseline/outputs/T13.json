@@ -1,0 +1,9 @@
+{
+  "claim_id": "T13",
+  "label": "insufficient",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "来源说明约2400条样本及其概括来源，但不能据此确定逐条完整内容是否公开。",
+  "limitation": "给定来源未提供可核验的逐条完整样本清单或明确的公开声明。",
+  "suggested_wording": "论文报告胜出方案使用约2400条训练样本，逐条内容的公开情况尚需另证。"
+}

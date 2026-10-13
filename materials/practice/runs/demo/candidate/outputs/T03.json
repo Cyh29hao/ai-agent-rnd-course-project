@@ -1,0 +1,9 @@
+{
+  "claim_id": "T03",
+  "label": "supported",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "论文将结果限定于十类可测对齐失败，并把未知或罕见失败列为未解决范围。",
+  "limitation": "所测指标是部署安全的代理指标，不能推出整体安全性。",
+  "suggested_wording": "Anthropic称其研究覆盖十类可测的对齐失败，未知风险尚不在已验证范围内。"
+}

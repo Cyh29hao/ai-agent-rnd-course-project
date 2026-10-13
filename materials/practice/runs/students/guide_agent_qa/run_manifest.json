@@ -1,0 +1,26 @@
+{
+  "record_id": "guide_agent_qa",
+  "prepared_at": "2026-10-13T08:21:20.895426+00:00",
+  "status": "guide_agent_qa_executed",
+  "executor_name": "制作代理教程复现",
+  "model_id": "gpt-6-sol",
+  "platform": "Codex desktop app",
+  "started_at": null,
+  "ended_at": null,
+  "tools_available": [
+    "functions.exec/exec_command",
+    "web.run open/find"
+  ],
+  "sampling": "unknown",
+  "cost": "unknown",
+  "input_sha256": {
+    "protocol_baseline.md": "aef7ea084ea4caeea3f9a97149856aa468f91cf9962d2e8869d47332e6328bb8",
+    "schema.json": "5bcd7e917082a583a35c47f0657d304c5ece3ea232efe11295ee8311de248592",
+    "smoke/claims.json": "c108c1d1301d3a624b264cafa9da82e87586cba54c97def90daeb46a089e3f21",
+    "smoke/sources.json": "c5ae892c67022e315d69c62874a10c95df951bcf007fd8c994a0b147f02d7d53"
+  },
+  "agent_output": "outputs/smoke-01.json",
+  "validator_result": "VALID smoke-01 supported T1#T1-run-evals-plan; exit_code=0",
+  "human_source_review": null,
+  "actual_contribution": "Guide agent QA tool qualification reproduction only; no student or four-person practice; exact run start/end not captured."
+}

@@ -1,0 +1,9 @@
+{
+  "claim_id": "T05",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "65%明确指Petri十维覆盖加权安全改善空间指标，而非全部安全测试的通过率。",
+  "limitation": "该指标只覆盖论文选定的十类失败和特定审计设置。",
+  "suggested_wording": "Anthropic报告胜出检查点在所用Petri十维安全改善空间指标上达到65%。"
+}

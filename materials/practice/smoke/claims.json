@@ -1,0 +1,7 @@
+[
+  {
+    "claim_id": "smoke-01",
+    "claim": "OpenAI 的 Runme 评测实例中，Codex 在开始执行前会写计划，并等待作者审阅批准。",
+    "source_ids": ["T1"]
+  }
+]

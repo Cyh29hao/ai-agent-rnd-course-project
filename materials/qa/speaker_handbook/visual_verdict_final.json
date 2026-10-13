@@ -1,0 +1,8 @@
+{
+  "scope": "printable_script_final12pages",
+  "score": 92,
+  "verdict": "pass",
+  "review_boundary": "Root viewed all 12 pages at iteration2; 8 final page PNGs identical by SHA; final changed pages5,6,11,12 re-viewed at iteration3. No table continuation without heading or orphan handoff. Human rehearsal pending",
+  "docx_sha256": "5b8ba49a592c980f52588057f593f25517dc24833fa6a5d951021bf73348f51d",
+  "pdf_sha256": "695f65de11f8d267a7a21d0dbd949aeb3cf1deb17141bc1a8e11cc916958df67"
+}

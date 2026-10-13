@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-10-13T03:37:59.339561+00:00",
+  "model_id": "gpt-6-sol",
+  "executor": "Codex native production agents",
+  "design": "two independent fresh variant contexts, 16 claims processed as one batch per variant",
+  "max_tool_calls_per_batch": 10,
+  "sampling": "not exposed by native subagent interface",
+  "is_sealed_holdout": false,
+  "limitation": "Shared workspace permits access. Gold is excluded from prompts and agents are instructed not to read it. No OS isolation; source-author summaries and demo authorship preclude independent validation. Batch design is a demonstration deviation from proposed student per-claim protocol. No development-based optimization claim.",
+  "sha256": {
+    "protocol_baseline.md": "aef7ea084ea4caeea3f9a97149856aa468f91cf9962d2e8869d47332e6328bb8",
+    "protocol_candidate.md": "4d6d959ce49228554da08ea49f943f4f14179d6953cb961f75d7c0f349eed011",
+    "sources.json": "285c2b35bd7092159deebe0a7d9f11941c19b7e6fdcb1b33c841bd096576884b",
+    "schema.json": "5bcd7e917082a583a35c47f0657d304c5ece3ea232efe11295ee8311de248592",
+    "demo/claims.json": "b0e7defcaf2b4411511aca55ee078cff0e46d9dedf706345bdc5c276fe9af691"
+  }
+}

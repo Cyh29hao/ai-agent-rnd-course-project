@@ -1,0 +1,9 @@
+{
+  "claim_id": "T16",
+  "label": "insufficient",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "来源明确表示未测试广泛强化学习后的收益保持，因而无法核验92%的长期保持率。",
+  "limitation": "没有该条件下的实验数据或指标定义；缺失结果不等于已证明其反值。",
+  "suggested_wording": "论文未量化更大规模RL后的长期安全保持率。"
+}

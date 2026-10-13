@@ -1,0 +1,9 @@
+{
+  "claim_id": "T07",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "论文明确说未知或罕见失败可能缺乏基准，十类可测任务不能证明覆盖所有未知风险。",
+  "limitation": "已测十类仍受基准和审计代理指标限制。",
+  "suggested_wording": "Anthropic在十类已定义、可测的对齐失败上报告改善；未知风险仍待研究。"
+}

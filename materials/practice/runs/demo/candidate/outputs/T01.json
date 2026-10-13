@@ -1,0 +1,9 @@
+{
+  "claim_id": "T01",
+  "label": "supported",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "论文第6节明确把Sonnet 5设为研究代理，并限制它只能构造训练数据。",
+  "limitation": "这是Anthropic自报的早期检查点实验，未证明整体对齐安全。",
+  "suggested_wording": "Anthropic报告称，在该早期Opus 4.8检查点实验中，Sonnet 5研究代理只被允许构造训练数据。"
+}

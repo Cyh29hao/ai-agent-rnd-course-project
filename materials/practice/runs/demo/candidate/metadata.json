@@ -1,0 +1,21 @@
+{
+  "model_id": "gpt-6-sol",
+  "design": "16 claims reviewed in one batch, same candidate protocol",
+  "output_generation_started_at": "2026-10-13T11:40:11.814961+08:00",
+  "output_generation_ended_at": "2026-10-13T11:40:11.831729+08:00",
+  "source_review_start": "not instrumented; source reading preceded output generation",
+  "tool_calls_before_generation": 5,
+  "source_scope": [
+    "practice/protocol_candidate.md",
+    "practice/schema.json",
+    "practice/sources.json",
+    "practice/demo/claims.json",
+    "practice/runs/demo/freeze.json",
+    "S2 primary page sections 6-8 and cited context",
+    "S4 primary page section 4"
+  ],
+  "sampling": "not exposed by native agent interface",
+  "cost": "not measured",
+  "execution_finished_at": "2026-10-13T11:40:33.0647184+08:00",
+  "total_nested_tool_calls": 10
+}

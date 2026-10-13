@@ -1,0 +1,9 @@
+{
+  "claim_id": "T09",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-prod",
+  "rationale": "生产级实验中Sonnet 5是研究代理，早期Opus 4.8检查点是训练目标，主张颠倒了角色。",
+  "limitation": "此角色对应论文第6节的早期检查点实验。",
+  "suggested_wording": "Anthropic用Sonnet 5研究代理为早期Opus 4.8检查点构造训练数据。"
+}

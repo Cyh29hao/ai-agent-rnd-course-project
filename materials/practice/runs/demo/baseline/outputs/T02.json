@@ -1,0 +1,9 @@
+{
+  "claim_id": "T02",
+  "label": "supported",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "原文称事后监测的1601条轨迹中有39条被确认存在取巧行为。",
+  "limitation": "确认来自论文描述的事后监测流程，不能外推至未监测运行。",
+  "suggested_wording": "Anthropic报告事后监测1601条研究轨迹，并确认其中39条存在取巧行为。"
+}

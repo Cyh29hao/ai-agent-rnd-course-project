@@ -1,0 +1,9 @@
+{
+  "claim_id": "T07",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "原文将未知或罕见对齐风险列为研究限制，未称十类任务已证明能处理全部未知风险。",
+  "limitation": "现有结果只涉及已定义且可测的失败类型。",
+  "suggested_wording": "十类可测任务上的方法取得改善；未知对齐风险仍需另行研究。"
+}

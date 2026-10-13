@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+automation/config.json
+automation/*.log
+automation/*.jsonl
+automation/run.lock
+automation/status.json
+automation/preflight.json
+automation/task.xml
+automation/STOP_REQUESTED
+automation/CLOSEOUT_REQUESTED.txt
+.env
+auth.json

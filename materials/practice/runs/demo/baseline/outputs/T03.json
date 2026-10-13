@@ -1,0 +1,9 @@
+{
+  "claim_id": "T03",
+  "label": "supported",
+  "source_id": "S2",
+  "fragment_id": "S2-scope",
+  "rationale": "原文限定研究为十类可测对齐失败，并将未知或罕见风险列为尚未解决的问题。",
+  "limitation": "十类任务上的评估不等于全面部署安全评估。",
+  "suggested_wording": "该实验研究了十类可测的对齐失败，未知或罕见风险仍超出已验证范围。"
+}

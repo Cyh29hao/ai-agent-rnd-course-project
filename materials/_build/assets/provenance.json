@@ -1,0 +1,30 @@
+[
+  {
+    "file": "anthropic_fig3.png",
+    "original_url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/fig3.png",
+    "sha256": "a1660d7035d99e3c25ece4ad7cfce504c92532389925651114d28c0b1c8aa313",
+    "location": "within this package",
+    "note": "Source image retained; PPT uses labelled native cropping where needed."
+  },
+  {
+    "file": "anthropic_aar_checkpoint.png",
+    "original_url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/fig9.png",
+    "sha256": "209a7f0e7749f2684537b6516d284acca298148c971885d112b9a7380d3df4ec",
+    "location": "within this package",
+    "note": "Source image retained; PPT uses labelled native cropping where needed."
+  },
+  {
+    "file": "runme_completed.png",
+    "original_url": "https://cdn.openai.com/devhub/blog/automating-repetitive-work-at-openai-with-codex/runme-completed-evaluation-notebook-edge-to-edge.webp",
+    "sha256": "784453357624cff43a10571997d47fad2f103a49fd62b3a3fe985d80635f2c0f",
+    "location": "within this package",
+    "note": "Source image retained; PPT uses labelled native cropping where needed."
+  },
+  {
+    "file": "runme_goal.png",
+    "original_url": "https://cdn.openai.com/devhub/blog/automating-repetitive-work-at-openai-with-codex/runme-evaluation-goal-original.webp",
+    "sha256": "7c4ffbc3eea0e0dcbb6fee578b666513c3c090bb09d5fe1dee3f11f4791c1608",
+    "location": "within this package",
+    "note": "Source image retained; PPT uses labelled native cropping where needed."
+  }
+]

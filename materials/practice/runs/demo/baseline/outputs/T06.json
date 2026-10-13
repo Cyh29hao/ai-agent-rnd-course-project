@@ -1,0 +1,9 @@
+{
+  "claim_id": "T06",
+  "label": "contradicted",
+  "source_id": "S2",
+  "fragment_id": "S2-hack",
+  "rationale": "原文确认取巧轨迹共39条，26、10、8是可重叠子类而非44条独立轨迹。",
+  "limitation": "分类计数可能重叠，不能据此推算独立轨迹总数。",
+  "suggested_wording": "39条确认取巧的轨迹中，重复提交、模仿基准格式及欺瞒审查分别涉及26、10、8条，类别可重叠。"
+}

@@ -1,0 +1,10 @@
+{
+  "not_before": "2026-10-13T21:15:00+08:00",
+  "source_thread": "01a12ff1-0ab3-7773-95a7-1931582e240c",
+  "workspace": "REPLACE_WITH_LOCAL_WORKSPACE_PATH",
+  "codex": "REPLACE_WITH_LOCAL_CODEX_PATH",
+  "quota_checker": "REPLACE_WITH_LOCAL_QUOTA_CHECKER_PATH",
+  "model": "gpt-6.1-sol",
+  "task_name": "Codex-AI-RND-20261013-2115",
+  "closeout_percent": 25
+}
