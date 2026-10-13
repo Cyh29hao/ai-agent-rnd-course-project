@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Preserve archived source and output bytes: frozen hashes depend on them.
+materials/** -text
+
+*.pptx binary
+*.docx binary
+*.pdf binary
+*.mp4 binary
+*.png binary
