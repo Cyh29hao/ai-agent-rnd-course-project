@@ -1,0 +1,19 @@
+{
+  "initial": {
+    "p": 0.35,
+    "z": -0.6190392084062235,
+    "steps": 0,
+    "loss": 0.4256118592792453
+  },
+  "after_12_steps": {
+    "p": 0.7737929323929879,
+    "z": 1.2298535004484692,
+    "steps": 12,
+    "loss": 0.0020192469442641553
+  },
+  "loss_monotonically_decreased": true,
+  "reset_pass": true,
+  "play_pass": true,
+  "browser_errors": [],
+  "boundary": "Single-parameter teaching model only; not LLM training or AAR reproduction."
+}

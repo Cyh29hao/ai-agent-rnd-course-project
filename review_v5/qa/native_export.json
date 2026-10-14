@@ -1,0 +1,22 @@
+[
+  {
+    "file": "审批样页_05.pptx",
+    "slides": 8,
+    "renderer": "PowerPoint",
+    "sha256": "3e892f8d872ad0e399f77c7be13c4c6a55a2cfb20b93dd621cb853c6d57283c0"
+  },
+  {
+    "file": "机制教学示意_18秒.mp4",
+    "seconds_design": 18,
+    "renderer": "PowerPoint CreateVideo",
+    "sha256": "45d0db202c7bca631eb312b5bd76f7b69332f3b6e9123092f22b427789f28437",
+    "disclosure": "Method illustration"
+  },
+  {
+    "file": "本项目工件重排_12秒.mp4",
+    "seconds_design": 12,
+    "renderer": "PowerPoint CreateVideo",
+    "sha256": "a217a0edc07cf4e4bb609c6c46877e2ae0b283f8d1ecb4211298d4b16458c182",
+    "disclosure": "Existing artifacts rearranged; not UI recording"
+  }
+]

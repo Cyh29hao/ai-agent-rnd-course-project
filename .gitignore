@@ -20,3 +20,5 @@ node_modules/
 v4/_build/*.pptx
 v4/_build/*.ndjson
 v4/_build/*.log
+review_v5/_build/*.pptx
+review_v5/_build/*.ndjson

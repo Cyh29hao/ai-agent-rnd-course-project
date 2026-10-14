@@ -1,0 +1,29 @@
+{
+  "status": "ready_for_user_review",
+  "slides": 8,
+  "notes_match": true,
+  "native_powerpoint_all_8_pages_read": true,
+  "decoded": {
+    "mechanism": {
+      "seconds": 18,
+      "width": 1280,
+      "height": 720
+    },
+    "trace": {
+      "seconds": 12,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "interactive_math_and_controls_checked": true,
+  "utf8_text_files_checked": 33,
+  "full_goal_complete": false,
+  "user_approval_received": false,
+  "human_comprehension_tested": false,
+  "full_talk_timing_tested": false,
+  "boundaries": [
+    "Authoring Node process printed valid receipts but exited 1; native PowerPoint open/export verified separately.",
+    "Only samples, plan and teaching prototypes were made.",
+    "Single parameter demo is not LLM training or AAR reproduction."
+  ]
+}

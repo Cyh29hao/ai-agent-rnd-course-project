@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>蒸馏训练的教学示意</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#faf8f3;color:#1e3544;font-family:"Microsoft YaHei",sans-serif}.page{max-width:1140px;margin:0 auto;padding:42px 32px}.intro{color:#167f78;font-size:17px;font-weight:700}h1{font-size:36px;margin:18px 0 16px}p{line-height:1.7;margin:12px 0}.sub{color:#667680;font-size:17px}.charts{margin-top:28px;border-top:1px solid #d5d9d5;border-bottom:1px solid #d5d9d5;padding:26px 0}.row{display:grid;grid-template-columns:175px 1fr 100px;gap:20px;align-items:center;margin:20px 0}.label{font-size:22px}.track{height:42px;background:#e3e6e1;display:flex;overflow:hidden}.yes{background:#167f78;transition:width .4s}.no{background:#cfbdad;transition:width .4s}.number{font-size:25px;font-weight:700;color:#167f78}.legend{margin-left:195px;font-size:16px;color:#667680}.formula{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin:30px 0}.formula h2{font-size:20px;margin:0 0 10px}.math{font:22px Consolas,monospace;margin:12px 0}.data{font-size:19px}.data strong{font-size:27px}.controls{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:24px 0}button{border:1px solid #167f78;background:#fff;color:#167f78;border-radius:3px;padding:12px 19px;font:18px "Microsoft YaHei",sans-serif;cursor:pointer}button:first-child{color:#fff;background:#167f78}button:disabled{opacity:.6;cursor:default}.note{font-size:14px;color:#667680;border-top:1px solid #d5d9d5;padding-top:20px}.progress{min-height:28px;color:#b65d3e}.steps{font-size:16px;color:#667680}@media(max-width:720px){.page{padding:24px 18px}h1{font-size:28px}.row{grid-template-columns:90px 1fr 70px;gap:10px}.label{font-size:18px}.legend{margin-left:100px}.formula{grid-template-columns:1fr;gap:16px}}
+</style></head><body><main class="page">
+<div class="intro">可点击的教学原型　不是真实大模型训练</div>
+<h1>教师的输出分布，怎样变成学生的训练信号？</h1>
+<p class="sub">只用两类回答作例子。教师保持固定，训练更新学生的一个参数 z。</p>
+<section class="charts" aria-label="教师与学生的回答概率">
+<div class="row"><span class="label">教师 pT</span><div class="track"><div class="yes" style="width:80%"></div><div class="no" style="width:20%"></div></div><span class="number">80.0%</span></div>
+<div class="row"><span class="label">学生 pθ</span><div class="track"><div class="yes" id="studentYes" style="width:35%"></div><div class="no" id="studentNo" style="width:65%"></div></div><span class="number" id="probability">35.0%</span></div>
+<div class="legend">绿色：指出错误　　浅色：迎合错误。两类回答的概率相加为1。</div>
+</section>
+<section class="formula"><div><h2>每步实际计算</h2><div class="math">pθ = sigmoid(z)</div><div class="math">z ← z − η (pθ − pT)</div><p class="sub">学生分布与教师不同，差异成为梯度，调整学生参数。</p></div><div><h2>教学损失与当前状态</h2><div class="math">L = KL(pT || pθ)</div><p class="data">参数 z：<strong id="parameter"></strong>　更新 <strong id="stepCount">0</strong> 次</p><p class="data">KL：<strong id="loss"></strong></p><div class="progress" id="progress">点击“训练一步”，观察学生分布和KL。</div></div></section>
+<div class="controls"><button id="stepButton">训练一步</button><button id="playButton">播放12步</button><button id="resetButton">重置</button><label>学习率 η <input id="rate" type="range" min="0.1" max="2" step="0.1" value="1"><span id="rateValue">1.0</span></label></div>
+<p class="steps">顺序：教师给出分布　→　计算差异　→　更新学生参数　→　重新计算学生分布。</p>
+<p class="note">这是单参数二分类模型，数值80%与35%仅作教学示意。此处明确选用KL(pT||pθ)，不表示Anthropic获胜方法的完整损失方向、层位置或超参数。真实LLM需要在逐token条件分布和高维参数上训练，行为效果还要独立评测。背景机制见公开AAR论文附录D.4。本原型由Codex制作，用于审批讲法；不作为本组复现论文或模型能力提升的实验。</p>
+</main><script>
+const teacher=.8,initial=Math.log(.35/.65);let z=initial,steps=0,timer=null;
+const el=id=>document.getElementById(id);const sigmoid=x=>1/(1+Math.exp(-x));
+function state(){const p=sigmoid(z);return {p,z,steps,loss:teacher*Math.log(teacher/p)+(1-teacher)*Math.log((1-teacher)/(1-p))}}
+function draw(){const s=state();el('studentYes').style.width=(s.p*100)+'%';el('studentNo').style.width=((1-s.p)*100)+'%';el('probability').textContent=(s.p*100).toFixed(1)+'%';el('parameter').textContent=s.z.toFixed(4);el('stepCount').textContent=s.steps;el('loss').textContent=s.loss.toFixed(6);el('rateValue').textContent=Number(el('rate').value).toFixed(1)}
+function step(){const before=state();z-=Number(el('rate').value)*(before.p-teacher);steps++;draw();el('progress').textContent='学生参数已更新，分布更接近教师。效果还需另行评测。'}
+function stop(){if(timer!==null)clearInterval(timer);timer=null;el('stepButton').disabled=false;el('playButton').disabled=false}
+el('stepButton').addEventListener('click',step);el('playButton').addEventListener('click',()=>{stop();el('stepButton').disabled=true;el('playButton').disabled=true;let left=12;timer=setInterval(()=>{step();if(--left===0)stop()},550)});
+el('resetButton').addEventListener('click',()=>{stop();z=initial;steps=0;draw();el('progress').textContent='已回到初始分布。点击“训练一步”。'});el('rate').addEventListener('input',draw);
+window.teachingState=state;draw();
+</script></body></html>

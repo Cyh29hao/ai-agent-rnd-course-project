@@ -1,0 +1,12 @@
+﻿{
+    "width":  1280,
+    "decoder":  "Windows WPF MediaPlayer",
+    "decoded":  true,
+    "samples":  [
+                    0.1,
+                    6,
+                    11.5
+                ],
+    "duration":  12,
+    "height":  720
+}

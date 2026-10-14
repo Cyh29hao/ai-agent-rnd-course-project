@@ -1,0 +1,8 @@
+{
+  "score": 89,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["样页7待验证的文字与下方箭头间距不足，箭头压在字脚附近"],
+  "suggestions": ["把待验证箭头下移20像素，保留底部来源间距"],
+  "reasoning": "样页4图轴和数据标签的Artifact预览已清楚，样页6新增原文与改写对应；样页7还需处理最后一处排版。"
+}
