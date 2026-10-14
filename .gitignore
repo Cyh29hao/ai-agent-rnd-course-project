@@ -23,3 +23,8 @@ v4/_build/*.log
 review_v5/_build/*.pptx
 review_v5/_build/*.ndjson
 review_v5/.chart-data-*/
+v5/_build/node_modules/
+v5/_build/*.pptx
+v5/_build/*.ndjson
+v5/_build/*.log
+v5/.chart-data-*/

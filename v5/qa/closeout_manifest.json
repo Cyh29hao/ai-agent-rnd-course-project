@@ -1,0 +1,39 @@
+{
+  "stage": "industry presentation saved; overall incomplete",
+  "latestPPTX": "智能体产业研发_V5_04.pptx",
+  "sha256": "b5403c0d322989a6e07ad4dbd0f3911847372cae4d8ef27e6baa74513ae6f81e",
+  "slides": 34,
+  "mainSlides": 24,
+  "notesMatch": true,
+  "changeFromNativeReviewed03": [
+    "ppt/slides/slide29.xml"
+  ],
+  "nativeReviewed03All34": true,
+  "native04ReopenPassed": false,
+  "embeddedVideoHashMatches": true,
+  "actualPlaybackSamples03": [
+    {
+      "state": 0,
+      "position": 2549
+    },
+    {
+      "state": 0,
+      "position": 7644
+    },
+    {
+      "state": 0,
+      "position": 14752
+    }
+  ],
+  "playbackProcessCleanupError": "(-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Presentation.Close : Object does not exist.', '', 0, -2147188720), None)",
+  "documentsPages": [
+    6,
+    7,
+    10
+  ],
+  "utf8FilesChecked": 46,
+  "practice": "deferred",
+  "humanTimingPassed": false,
+  "humanComprehensionPassed": false,
+  "sameChatSchedulingPassed": false
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "sourceSha256": "b6ac4b3504b9b64563203fb47f4d81a2b1559ea235652b0c9b30d0815b79bcd4",
+  "isolatedPPTX": true,
+  "samples": [
+    {
+      "state": 0,
+      "position": 2549
+    },
+    {
+      "state": 0,
+      "position": 7644
+    },
+    {
+      "state": 0,
+      "position": 14752
+    }
+  ],
+  "error": "(-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Presentation.Close : Object does not exist.', '', 0, -2147188720), None)"
+}

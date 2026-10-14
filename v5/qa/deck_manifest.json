@@ -1,0 +1,52 @@
+{
+  "mainSlides": 24,
+  "totalSlides": 34,
+  "sources": {
+    "1": [
+      "Good, 1965",
+      "https://scienceplusplus.org/metascience/assets/Good1965.pdf"
+    ],
+    "2": [
+      "Schmidhuber, Gödel Machines",
+      "https://people.idsia.ch/~juergen/gmweb4/gmweb4.html"
+    ],
+    "3": [
+      "Zoph & Le, NAS, 2016",
+      "https://arxiv.org/abs/1611.01578"
+    ],
+    "4": [
+      "Chen 等, Automated Researchers…, 2026",
+      "https://alignment.anthropic.com/2026/automated-alignment-researchers/"
+    ],
+    "5": [
+      "Lewi, OpenAI评测工作流, 2026",
+      "https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex"
+    ],
+    "6": [
+      "Google DeepMind, AlphaEvolve, 2025",
+      "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+    ],
+    "7": [
+      "AgentEvolver论文, 2025",
+      "https://arxiv.org/html/2511.10395v1"
+    ],
+    "8": [
+      "Sakana AI, DGM, 2025",
+      "https://sakana.ai/dgm/"
+    ],
+    "9": [
+      "OpenAI研究加速报告, 2026",
+      "https://openai.com/index/research-acceleration-view-inside-openai/"
+    ],
+    "10": [
+      "Anthropic, Recursive Self-Improvement",
+      "https://www.anthropic.com/institute/recursive-self-improvement"
+    ],
+    "11": [
+      "modelscope/AgentEvolver",
+      "https://github.com/modelscope/AgentEvolver"
+    ]
+  },
+  "seconds": 845,
+  "practice": "deferred; excluded"
+}

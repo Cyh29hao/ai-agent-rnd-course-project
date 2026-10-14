@@ -1,0 +1,23 @@
+[
+  {
+    "file": "课程报告_V5.docx",
+    "pages": 7,
+    "sha256": "13901334f68088116d2b82fe2b9906b508b2d4fbb13d77c35c0c6112df97fbfe",
+    "renderer": "Microsoft Word COM",
+    "pdf_sha256": "81868078bd962226f998a3cd2fb3001cd18f8431e11b489a1d7f35784225048a"
+  },
+  {
+    "file": "四人口播_V5.docx",
+    "pages": 6,
+    "sha256": "433a92adcdc4945a77119dbe48487afb7f32d491ae068134a35b13c7636de455",
+    "renderer": "Microsoft Word COM",
+    "pdf_sha256": "9b185831fdfcd5b2de76f95376bad21e79b270fd9cf40be90722a1e1c91f9eca"
+  },
+  {
+    "file": "来源与答辩_V5.docx",
+    "pages": 10,
+    "sha256": "29ccb98a3c1d40564bbf0ae453215a14b53f7d36bc3535e6b81248f573cf6d62",
+    "renderer": "Microsoft Word COM",
+    "pdf_sha256": "311a45a3cab3b6ed5c6f91b55b9fe7b5de0cdb84fa39094384d99049a63c14ff"
+  }
+]

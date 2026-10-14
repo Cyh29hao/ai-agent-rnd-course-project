@@ -1,0 +1,9 @@
+{
+  "changed": [
+    "ppt/slides/slide11.xml",
+    "ppt/charts/chart1.xml"
+  ],
+  "removed": "empty r:id on ppaction://media",
+  "chart": "Restore authoritative decimal literals from source .06/.029/.233 after native roundtrip noise",
+  "preserved": "video links, poster link, intrinsic action, all other parts"
+}
