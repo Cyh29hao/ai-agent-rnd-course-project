@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-14",
+  "release": "V5-05",
+  "entry": "v5/从这里开始.md",
+  "mainSlides": 24,
+  "referenceSlides": 2,
+  "defenseSlides": 8,
+  "designSeconds": 900,
+  "practice": "deferred",
+  "humanTimingVerified": false,
+  "speakerAssignmentsConfirmed": false,
+  "fullCourseGoalComplete": false,
+  "artifacts": {
+    "deck": {
+      "path": "v5/outputs/智能体产业研发_V5_05.pptx",
+      "sha256": "358503e9af92a2ec70eea3948c88f68ccef88ee0535df03cb243f4f9196640ff"
+    },
+    "mainPdf": {
+      "path": "v5/outputs/智能体产业研发_V5_05_主讲.pdf",
+      "sha256": "3dbe527b2d6e8e573f106dc72d37b5e583547c97753c862dc6282d76728a0beb"
+    },
+    "fullPdf": {
+      "path": "v5/outputs/智能体产业研发_V5_05_含答辩.pdf",
+      "sha256": "3d2dc7009bc92e79c7d1b737f389ace245d4eb8828c7e238b87e0eedbe08fc23"
+    }
+  },
+  "sources": {
+    "slideContent": "v5/主讲内容.json",
+    "spokenScript": "v5/01_自然口播稿.md",
+    "report": "v5/05_课程报告.md",
+    "referencesAndDefense": "v5/04_来源与答辩.md",
+    "speakerCards": "v5/02_四人速读与排练.md",
+    "defenseNavigation": "v5/03_答辩现场导航.md",
+    "layout": "v5/_build/build_deck.mjs"
+  },
+  "collaboration": {
+    "guide": "docs/协作说明.md",
+    "map": "docs/项目主线与内容地图.md",
+    "tasks": "docs/协作任务板.md",
+    "prompts": "docs/Codex协作提示词.md",
+    "template": "docs/修改提案模板.md"
+  }
+}
