@@ -22,3 +22,4 @@ v4/_build/*.ndjson
 v4/_build/*.log
 review_v5/_build/*.pptx
 review_v5/_build/*.ndjson
+review_v5/.chart-data-*/
