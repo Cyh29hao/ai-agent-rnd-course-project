@@ -40,12 +40,18 @@ try:
             if 'Object does not exist' not in str(exc):raise
             record['cleanup']='PowerPoint closed the windowless copy on slideshow exit'
         pres=None
-        if app.Presentations.Count==0:app.Quit()
+        if app.Presentations.Count==0:
+            try:app.Quit()
+            except Exception as exc:
+                # The windowless server can already be terminating after its
+                # final slideshow exits. Playback assertions above remain
+                # separate from this cleanup warning; retain the exact error.
+                record['cleanupWarning']=str(exc)
         app=None
 except Exception as exc:
     record['error']=str(exc);raise
 finally:
-    (ROOT/'qa/native_playback.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')
+    (ROOT/f'qa/native_playback_{revision}.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')
     if window:
         try:window.View.Exit()
         except Exception:pass

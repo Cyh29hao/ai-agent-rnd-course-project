@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "sourceSha256": "358503e9af92a2ec70eea3948c88f68ccef88ee0535df03cb243f4f9196640ff",
+  "isolatedPPTX": true,
+  "samples": [
+    {
+      "state": 0,
+      "position": 2556
+    },
+    {
+      "state": 0,
+      "position": 7649
+    },
+    {
+      "state": 0,
+      "position": 14732
+    }
+  ],
+  "cleanup": "PowerPoint closed the windowless copy on slideshow exit",
+  "cleanupWarning": "(-2147352567, '发生意外。', (0, None, None, None, 0, -2147188160), None)"
+}

@@ -1,6 +1,6 @@
 """Build printable documents with the bundled python-docx runtime."""
 from pathlib import Path
-import re,json
+import re,json,os
 from docx import Document
 from docx.shared import Cm,Pt,RGBColor,Inches
 from docx.oxml import OxmlElement
@@ -74,5 +74,9 @@ def convert(src,out):
     d.save(out)
 
 jobs=[('01_自然口播稿.md','四人口播_V5.docx'),('04_来源与答辩.md','来源与答辩_V5.docx'),('05_课程报告.md','课程报告_V5.docx')]
-for source,target in jobs:convert(ROOT/source,ROOT/'outputs'/target)
+label=os.environ.get('DOC_LABEL','')
+for source,target in jobs:
+    name=Path(target)
+    if label:target=name.stem+'_'+label+name.suffix
+    convert(ROOT/source,ROOT/'outputs'/target)
 print('DOCX_CREATED',len(jobs))

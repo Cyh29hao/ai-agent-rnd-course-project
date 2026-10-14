@@ -42,7 +42,7 @@ function mechanism(pr,num,stage=-1){const s=base(pr,'二  模型改进  Anthropi
 for(const d of data){
  let s=d.layout==='cover'?p.slides.add():d.layout==='distill'?mechanism(p,d.n):base(p,d.section,d.title,footer(d.sources),d.n);
  const refs=d.sources.map(i=>`[${i}] ${source[i][0]}\n${source[i][1]}`).join('\n');
- s.speakerNotes.text=`主讲第${d.n}页，设计预算${d.seconds}秒（未真人计时）。\n${d.script}\n\n来源：\n${refs}`;
+ s.speakerNotes.text=`主讲第${d.n}页，设计预算${d.seconds}秒（未真人计时）。\n${d.script}\n${d.note||''}\n\n来源：\n${refs}`;
  switch(d.layout){
  case 'cover':
   s.background.fill=C.ink;
@@ -71,7 +71,7 @@ for(const d of data){
   row(s,'Anthropic','方法、目标模型权重与实验评测',237);
   row(s,'OpenAI','研发任务、工具使用与决策记录',365);
   tx(s,'Google与开放研究补充算法、策略和代码的改动',72,532,1136,81,32,C.muted);
-  tx(s,'按可检查的公开证据选案例',72,614,1136,42,27,C.teal,true);break;
+  tx(s,'重点比较训练方法与评测流程',72,614,1136,42,27,C.teal,true);break;
  case 'roles':
   box(s,'研究Agent\nClaude Opus 4.8\n提出并实施方法',72,279,320,153,C.pale,27);ar(s,420,343);
   box(s,'Qwen3.5-2B\n接受后训练',518,279,310,153,C.soft);ar(s,856,343);
@@ -138,23 +138,24 @@ for(const d of data){
   tx(s,'Sakana DGM',696,233,512,63,37,C.rust,true);tx(s,'修改Agent自身代码\n运行基准检查\n保留候选谱系继续探索',696,328,512,178,32);
   rule(s,72,551,1136);tx(s,'策略训练与代码自改，需要分别追踪',72,587,1136,63,34);break;
  case 'comparison':
-  {const vals=[['案例','改动对象','检验依据'],['Anthropic','目标模型权重','训练后的行为与能力'],['OpenAI','流程与记录','命令结果、研究员判断'],['Google','算法程序','正确性与性能'],['开放研究','策略或代码','任务评测、版本表现']];
+  {const vals=[['案例','改动对象','怎样看效果'],['Anthropic','目标模型权重','训练后的行为与能力'],['OpenAI','流程与记录','命令结果、研究员判断'],['Google','算法程序','正确性与性能'],['开放研究','策略或代码','任务评测、版本表现']];
   const tb=s.tables.add({rows:5,columns:3,left:72,top:230,width:1136,height:405,columnWidths:[270,365,501],values:vals});
   tb.borders.assign({fill:C.rule,width:1,style:'solid'});
   for(let r=0;r<5;r++)for(let c=0;c<3;c++){const cell=tb.getCell(r,c);cell.fill=r===0?C.pale:C.bg;cell.text.style={typeface:FONT,fontSize:r===0?27:c===2?27:31,color:c===0?C.teal:C.ink,bold:r===0||c===0};cell.text.insets=12;}
   break;}
  case 'rsi':
-  box(s,'研究系统\n提出与执行方法',72,256,290,132);ar(s,389,309,70);
-  box(s,'研发产物\n权重、算法或流程',487,256,300,132);ar(s,815,309,70);box(s,'评测与保留\n检验局部收益',913,256,295,132);
-  tx(s,'已有：结果与记录反馈到下一次尝试',72,411,1136,47,27,C.teal,true);ar(s,165,475,960,C.pale,'leftArrow');
-  tx(s,'待验证：基础模型后继研发能力持续提高',72,525,1136,54,30,C.rust,true);ar(s,165,588,960,C.rule,'leftArrow');
-  tx(s,'并持续产生更强的后继模型',72,623,1136,38,25,C.rust,true);break;
+  box(s,'研究Agent\n提方法、跑实验',72,256,290,132);ar(s,389,309,70);
+  box(s,'这一轮的成果\n模型、算法或代码',487,256,300,132);ar(s,815,309,70);box(s,'检查效果\n保存方法与结果',913,256,295,132);
+  tx(s,d.body[0],72,411,1136,47,28,C.teal,true);ar(s,165,475,960,C.pale,'leftArrow');
+  tx(s,d.body[1],72,525,1136,54,30,C.rust,true);ar(s,165,588,960,C.rust,'leftArrow');
+  tx(s,d.body[2],72,627,1136,38,25,C.ink,true);break;
  case 'evidence':
-  d.body.forEach((t,i)=>{tx(s,`${i+1}`,72,242+i*125,103,77,49,C.rust,true);tx(s,t,238,251+i*125,970,85,35);});break;
+  d.body.forEach((t,i)=>{tx(s,`${i+1}`,72,242+i*119,103,77,49,C.rust,true);tx(s,t,238,251+i*119,970,85,35);});
+  tx(s,'一种比较办法：原版与新版做同一组任务，资源预算相同',72,624,1136,43,24,C.muted);break;
  case 'conclusion':
-  tx(s,'能交付局部改进',72,244,1136,82,49,C.teal,true);
-  tx(s,'权重、算法、策略、代码和研发流程',72,346,1136,77,32);
-  rule(s,72,464,1136);tx(s,'基础模型后继研发的持续循环，仍需充分检验',72,518,1136,110,40,C.rust,true);break;
+  tx(s,d.body[0],72,244,1136,82,46,C.teal,true);
+  tx(s,d.body[1],72,346,1136,77,32);
+  rule(s,72,464,1136);tx(s,d.body[2],72,518,1136,110,39,C.rust,true);break;
  case 'thanks':
   d.body.forEach((t,i)=>tx(s,t,72,253+i*115,1136,77,40,i===2?C.rust:C.teal,true));break;
  default:throw new Error(`No layout ${d.layout}`);

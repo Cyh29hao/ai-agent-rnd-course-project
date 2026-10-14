@@ -1,0 +1,1 @@
+{"taskOwnedPowerPointPIDs":[39408,15040],"closedOnlyWhenEmpty":true,"guards":["ProcessName POWERPNT","started within30 minutes","Presentations count0","SlideShowWindows count0"],"licensingOrAccountChanges":false,"scope":"Task-created empty automation instances following playback tests; no blanket Office process termination"}

@@ -1,0 +1,47 @@
+{
+  "stage": "expression refinement checked",
+  "mainSlides": 24,
+  "totalSlides": 34,
+  "editedSlides": [
+    3,
+    5,
+    6,
+    20,
+    21,
+    22,
+    23
+  ],
+  "notesMatch": true,
+  "scriptsSeconds": 850,
+  "mainAndFullPDFChecked": true,
+  "nativeOpenFinal": true,
+  "nativePlaybackPositions": [
+    2556,
+    7649,
+    14732
+  ],
+  "playbackCleanupWarning": "(-2147352567, '发生意外。', (0, None, None, None, 0, -2147188160), None)",
+  "docPages": [
+    7,
+    5,
+    10
+  ],
+  "changedPagesVisuallyRead": [
+    3,
+    5,
+    6,
+    20,
+    21,
+    22,
+    23
+  ],
+  "unchangedDeckPartsPreserved": true,
+  "reportAndDefensePagesRead": 17,
+  "talkPagesRead": 5,
+  "independentLanguageReview": "no required changes",
+  "practice": "deferred",
+  "fullCourseGoalComplete": false,
+  "humanTimingVerified": false,
+  "sameChatSchedulingVerified": false,
+  "sha256": "358503e9af92a2ec70eea3948c88f68ccef88ee0535df03cb243f4f9196640ff"
+}
