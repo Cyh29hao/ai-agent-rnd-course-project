@@ -1,0 +1,37 @@
+# 更新速览
+
+这里只记全组需要知道的变化。**文档更新、提案合并与正式汇报更新分开记录。** 当前正式交付看[版本清单](docs/当前版本.json)，仍为V5修订05。
+
+快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
+
+## 2026-10-15｜PR协作与更新入口
+
+- 组员内容修改默认自己的分支提小PR，组长审阅整合；零散问题不强制开PR，也不要求先开Issue。
+- 补齐邀请、分支、提交、审阅、采用状态与更新查看说明，提供可转发的小组文字。
+- README顶部新增最近更新、待审/已合并PR、提交记录和当前材料入口。
+- 这次是文档与模板更新，没有新增邀请、组员提案、实验成绩或正式交付版本。
+
+## 2026-10-15｜全组路线与可选实践
+
+[提交c40f47a](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commit/c40f47a4e5f2481d696222e2dc7cd99d488b5aad)
+
+- README直接展示ABCD精修路线、接回修改方式，四人专用提示词补齐。
+- 实践为可选未启动，难做取消、主讲不等待；D只是可能自愿承接，未被指派。
+- 解释旧24题练习、16题演示及实际13/16、12/16标签一致数。旧补测和逐人实验不再必做。
+- 只更新协作信息，主讲与导出仍为05。
+
+## 2026-10-15｜四人讲述分工确认
+
+[提交cc1e1aa](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commit/cc1e1aa6a8eeb5651bb3b607aa6540744cd719e0)
+
+- A陈云海01—07，B张程翔08—13，C赵金城14—18，D曹天卓19—24。
+- 陈云海后续主修A，同时审核、统稿并衔接其他部分。讲述分配不等于已经完成个人贡献或排练。
+
+## 2026-10-14｜协作入口与表达精修
+
+- [cbdd449](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commit/cbdd449ae8d64cce84543c0e24e409e171587337)：统一V5入口，增加内容地图、任务、提案模板、Agent约定与文档检查。
+- [d7c42fc](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commit/d7c42fc87948b7119896fa26fd2a17816e09cb18)：交付PPT修订05，精修目录和结尾讲法，同步口播与配套文档。该版本原生打开、视频播放等检查见[V5收尾](v5/09_精修收尾记录.md)。
+
+## 以后怎么维护
+
+影响全组的新决定、内容整合或正式导出，由组长在本页顶部加短条目，说明影响谁、改了什么、是否改变交付版本及仍待做什么。PR作者在PR说明提出建议摘要，不要求每个PR同时改本文件，以免多人冲突。组长合并内容PR后及时更新；具体句子变化看PR/提交，不在这里重复全文。

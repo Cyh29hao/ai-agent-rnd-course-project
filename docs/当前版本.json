@@ -69,6 +69,8 @@
     "prompts": "docs/Codex协作提示词.md",
     "template": "docs/修改提案模板.md",
     "assignments": "docs/分工与衔接.md",
-    "practiceOptions": "docs/实践选项与旧实验说明.md"
+    "practiceOptions": "docs/实践选项与旧实验说明.md",
+    "pullRequests": "docs/PR协作与更新速查.md",
+    "updates": "CHANGELOG.md"
   }
 }

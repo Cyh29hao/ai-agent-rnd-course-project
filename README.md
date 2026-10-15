@@ -6,6 +6,22 @@
 
 快捷入口：[当前24页主讲PDF](v5/outputs/智能体产业研发_V5_05_主讲.pdf) · [自然口播](v5/01_自然口播稿.md) · [各人Codex提示词](docs/Codex协作提示词.md)。
 
+## 协作和更新，一分钟找到入口
+
+| 想做什么 | 直接打开 |
+|---|---|
+| 看最新定了什么、影响谁 | [更新速览](CHANGELOG.md) |
+| 看正在讨论、等组长审核的修改 | [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) |
+| 看哪些PR已合并 | [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) |
+| 看具体哪句发生变化 | [main提交记录](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/)；单个文件可点History |
+| 不知道怎样开分支、提PR、审阅 | [PR协作与更新速查](docs/PR协作与更新速查.md) |
+
+**组员内容修改默认：自己的分支 → 小PR → 陈云海审阅整合。** 标题写Part和目的，例如`[B] 讲清教师与学生的训练关系`；说明页码、替换内容、来源和实际检查。一次先改1—3处，修改意见在同一PR继续，提出者不自动合并自己的PR。零散问题用Issue或直接反馈，不强制先开Issue。PPT/Word/PDF由组长统一导出。
+
+**还有两位尚未加入：现在就收集GitHub用户名或个人主页链接，再核对账号、发邀请。** 收到后本人接受，才能访问私有仓库。邀请入口：Settings → Collaborators → Add people。本轮未收到这两位的账号，没有新增邀请；[速查文档](docs/PR协作与更新速查.md)附可直接转给小组的文字。
+
+浏览器看到了更新，本地仍需检查分支再同步；不要直接reset清掉自己的改稿。PR合并不等于新PPT发布，下载材料仍看下方当前V5入口。
+
 ## 全组先看：2026-10-15最新安排
 
 **分工已经确定；下面的精修路线是后续建议，尚未登记为完成。每人先改自己的部分，陈云海负责全场统稿与衔接。**
