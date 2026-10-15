@@ -4,6 +4,13 @@
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
 
+## 2026-10-15｜核对考核方式，暂由组长答辩
+
+- README明确2—4人组队、答辩50分、每人分别撰写的报告50分、小组选1人答辩，注明第一讲课件及录播依据。
+- 暂由组长熟悉并答辩全场，ABCD继续作为内容与材料准备分工；成员交回机制解释、图示、数字出处、追问及回答，并协助组长备答辩。
+- 个人报告体现各自负责内容、做法与体会；报告模板、提交要求及答辩时长等仍待确认。10月31日仍是本组分段初稿节点。
+- 分工、成员Agent提示与仓库约定同步，替换旧的现场按各段分答设想；正式PPT及历史导出物未更新。
+
 ## 2026-10-15｜README补齐内容概要，协调职责称“组长”
 
 - 首页补齐全场主线、案例选择、A/B/C/D各段内容与精修重点，每段都能继续链接到详细建议。
