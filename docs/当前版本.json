@@ -7,7 +7,16 @@
   "referenceSlides": 2,
   "defenseSlides": 8,
   "designSeconds": 900,
-  "practice": "deferred",
+  "practice": "optional_not_started",
+  "practicePlan": {
+    "required": false,
+    "includedInMainDeck": false,
+    "executor": null,
+    "possibleVolunteerPart": "D",
+    "volunteerConfirmed": false,
+    "routeSelected": null,
+    "decision": "资源合适且本人愿意时可考察一次最小循环；难做取消，主讲不等待"
+  },
   "humanTimingVerified": false,
   "speakerAssignmentsConfirmed": true,
   "speakerAssignmentsConfirmedOn": "2026-10-15",
@@ -22,6 +31,12 @@
     "primaryPart": "A",
     "scope": "精修01—07页，同时熟悉、审核、统稿并衔接其他部分",
     "status": "方向已确认，内容精修尚未开始"
+  },
+  "suggestedNextDirections": {
+    "A": "精修01—07开场、历史、动机、案例选择与三角色；审核全场与首尾衔接",
+    "B": "精修08—13连续研究故事、激活引导、蒸馏、KL与23.3%的含义",
+    "C": "精修14—18评测任务与Runme记录、AlphaEvolve及23%/1%的分母",
+    "D": "精修19—24策略/代码/参数区别、下一轮研发和结论；实践非必做且未指派"
   },
   "fullCourseGoalComplete": false,
   "artifacts": {
@@ -53,6 +68,7 @@
     "tasks": "docs/协作任务板.md",
     "prompts": "docs/Codex协作提示词.md",
     "template": "docs/修改提案模板.md",
-    "assignments": "docs/分工与衔接.md"
+    "assignments": "docs/分工与衔接.md",
+    "practiceOptions": "docs/实践选项与旧实验说明.md"
   }
 }
