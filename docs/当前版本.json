@@ -82,9 +82,6 @@
     "assignments": "docs/分工与衔接.md",
     "practiceOptions": "docs/实践选项与旧实验说明.md",
     "pullRequests": "docs/PR协作与更新速查.md",
-    "updates": "CHANGELOG.md",
-    "presentationExperience": "docs/pre-playbook/Pre协作经验.md",
-    "newPresentationPrompt": "docs/pre-playbook/新对话启动提示词.md",
-    "presentationExperienceGuide": "docs/pre-playbook/README.md"
+    "updates": "CHANGELOG.md"
   }
 }
