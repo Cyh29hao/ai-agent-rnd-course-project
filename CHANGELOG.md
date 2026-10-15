@@ -4,6 +4,13 @@
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
 
+## 2026-10-15｜沉淀可复用的Pre协作经验
+
+- 用户确认以后默认先审主线、目录和样页，认可后再制作全套；五类质量偏好全部保留。
+- 新增通用经验文档、可复制的新对话启动提示词和使用说明；独立文件夹保存主文件，仓库提供在线副本，README可直接进入。
+- 记录下次“气味科学中的健康密码”相关Pre预计11月中旬，其他要求待确认；没有开始新课选题或制作，也未更改本课分工与交付。
+- 经验版本0.1，后续随本课的实际精修、试讲和课堂反馈更新；不把偏好确认写成课堂效果已验证。
+
 ## 2026-10-15｜README补齐内容概要，协调职责称“组长”
 
 - 首页补齐全场主线、案例选择、A/B/C/D各段内容与精修重点，每段都能继续链接到详细建议。
