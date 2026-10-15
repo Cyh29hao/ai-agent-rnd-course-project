@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "release": "V5-05",
   "entry": "v5/从这里开始.md",
   "mainSlides": 24,
@@ -9,7 +9,20 @@
   "designSeconds": 900,
   "practice": "deferred",
   "humanTimingVerified": false,
-  "speakerAssignmentsConfirmed": false,
+  "speakerAssignmentsConfirmed": true,
+  "speakerAssignmentsConfirmedOn": "2026-10-15",
+  "speakerAssignments": [
+    {"part": "A", "name": "陈云海", "startPage": 1, "endPage": 7, "designSeconds": 205},
+    {"part": "B", "name": "张程翔", "startPage": 8, "endPage": 13, "designSeconds": 260},
+    {"part": "C", "name": "赵金城", "startPage": 14, "endPage": 18, "designSeconds": 195},
+    {"part": "D", "name": "曹天卓", "startPage": 19, "endPage": 24, "designSeconds": 190}
+  ],
+  "currentWorkFocus": {
+    "owner": "陈云海",
+    "primaryPart": "A",
+    "scope": "精修01—07页，同时熟悉、审核、统稿并衔接其他部分",
+    "status": "方向已确认，内容精修尚未开始"
+  },
   "fullCourseGoalComplete": false,
   "artifacts": {
     "deck": {
@@ -39,6 +52,7 @@
     "map": "docs/项目主线与内容地图.md",
     "tasks": "docs/协作任务板.md",
     "prompts": "docs/Codex协作提示词.md",
-    "template": "docs/修改提案模板.md"
+    "template": "docs/修改提案模板.md",
+    "assignments": "docs/分工与衔接.md"
   }
 }
