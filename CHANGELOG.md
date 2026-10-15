@@ -4,6 +4,13 @@
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
 
+## 2026-10-15｜11月前完成完整初稿
+
+- 计划10月31日结束前（北京时间）完成各自完整Part，后续安排由陈云海视情况确定；不是已确认的教师截止日。
+- 初稿仍追求尽善尽美，PPT、逐页文字稿和答辩成套准备；本人认真审阅、核查与试讲，记录实际检查和剩余问题。
+- 小PR的1—3处是逐步修改的粒度，不是整段初稿只交三条建议。可选实践不影响该节点。
+- 本次登记节点和要求，没有把任何成员的初稿或排练标成已完成，也未更新正式PPT版本。
+
 ## 2026-10-15｜PR协作与更新入口
 
 - 组员内容修改默认自己的分支提小PR，组长审阅整合；零散问题不强制开PR，也不要求先开Issue。

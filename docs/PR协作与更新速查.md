@@ -2,6 +2,8 @@
 
 适用于四人内容协作。分工已定，不要求人人再学一套Git流程；可以让自己的Codex处理分支、提交和PR。
 
+小PR用来逐步完善，完整初稿计划在2026年10月31日结束前完成，含自己的PPT、逐页文字稿、答辩与实际自检。后续安排由陈云海确定，[详细要求](分工与衔接.md)。未实际审阅或试讲，不因文件生成而填完成。
+
 ## 最方便的合作形式
 
 | 你现在要做什么 | 用什么方式 |
@@ -21,7 +23,7 @@
 
 可直接转给小组的文字：
 
-> 还没加入仓库的两位，把GitHub用户名或个人主页链接发我，我邀请你们。收到后记得接受邀请。仓库首页已经有ABCD分工、后续方向、当前PPT和各人Codex提示词。先看自己的部分，后续改稿用自己的分支提PR；不熟悉Git可以让Codex操作，也可以把文件交给我代交。
+> 还没加入仓库的两位，把GitHub用户名或个人主页链接发我，我邀请你们，收到后记得接受。首页已有分工、材料和各人Codex提示词。我们计划11月前完成各自完整初稿：自己的PPT、文字稿和答辩都认真准备、看熟、试讲，虽然是初稿也尽量做到最好。后续我再视情况安排。改稿可以让Codex帮忙提PR，不熟悉操作也可交文件给我代交。
 
 以上只提供文案，由本人发送。[GitHub官方邀请说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository)
 

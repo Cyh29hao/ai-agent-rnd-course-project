@@ -7,6 +7,16 @@
   "referenceSlides": 2,
   "defenseSlides": 8,
   "designSeconds": 900,
+  "groupDraftMilestone": {
+    "targetDate": "2026-10-31",
+    "completeBefore": "2026-11-01T00:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "type": "planned_group_milestone_not_teacher_deadline",
+    "scope": "每人完整Part的PPT、逐页文字稿、相关答辩与本人自检",
+    "status": "计划已确认，尚未登记各人完成",
+    "followUp": "陈云海视情况另行安排后续整合、修改和排练",
+    "practiceRequired": false
+  },
   "practice": "optional_not_started",
   "practicePlan": {
     "required": false,
