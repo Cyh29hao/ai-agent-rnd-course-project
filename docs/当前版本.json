@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "updated": "2026-10-15",
+  "collaborationStyle": "按成员顺手的方式直接改稿、做PPT或提意见；PR与交文件均可，模板可选，不限修改数量、任务编号或分支命名",
   "release": "V5-05",
   "entry": "v5/从这里开始.md",
   "mainSlides": 24,

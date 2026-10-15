@@ -4,6 +4,13 @@
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
 
+## 2026-10-15｜协作说明改简，README减负
+
+- README只保留日期、分工、材料入口、交回方式和实践的一句话说明；硬件、旧分数、技术检查与长篇过程移出首页，详细资料仍可查。
+- PR、交文件、直接提意见都可以；取消固定分支命名、任务编号、修改条数、提案流程和模板填写要求。可以直接改自己的文字和PPT候选页。
+- 四人Agent提示、提案参考与Agent约定同步简化，避免其他入口再恢复旧限制。
+- 10月31日完成初稿、认真准备PPT/文字稿/答辩及既定分工保留。下面旧条目中的工程化规范只是历史记录，不再作为当前要求。
+
 ## 2026-10-15｜11月前完成完整初稿
 
 - 计划10月31日结束前（北京时间）完成各自完整Part，后续安排由陈云海视情况确定；不是已确认的教师截止日。
