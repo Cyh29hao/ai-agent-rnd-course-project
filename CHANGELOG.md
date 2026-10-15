@@ -4,6 +4,13 @@
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
 
+## 2026-10-15｜README补齐内容概要，协调职责称“组长”
+
+- 首页补齐全场主线、案例选择、A/B/C/D各段内容与精修重点，每段都能继续链接到详细建议。
+- 材料入口说明各文件的用途，并概括教学短片、两条可选实践路线和查看更新的方法，方便不点开文档也能了解整体。
+- 协调、合稿等叙述统一称“组长”；分工表仍保留成员姓名。PR、交文件、提意见均可，沿用简明协作方式。
+- 日期、分工及正式交付版本不变；未重做PPT、启动实践或登记尚未发生的排练。
+
 ## 2026-10-15｜协作说明改简，README减负
 
 - README只保留日期、分工、材料入口、交回方式和实践的一句话说明；硬件、旧分数、技术检查与长篇过程移出首页，详细资料仍可查。
