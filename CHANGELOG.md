@@ -4,6 +4,13 @@
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
 
+## 2026-10-25｜D部分已有来稿，后续精修与答辩材料集中准备
+
+- 曹天卓已提交19—24页口播并代提PR #1，尚未合并、精修或定稿；README直接展示当前进展。
+- 来稿后由AI润色讲稿、必要时联改PPT，形成基本定稿供成员看懂练熟；AI集中核源并制作全场答辩材料，组长熟悉并答辩。
+- 不再要求成员额外补交整套技术说明与问答；每人独立报告的课程要求保留。
+- 本轮只更新流程和进展，正式PPT仍为V5修订05，未合并PR或重做材料。
+
 ## 2026-10-15｜核对考核方式，暂由组长答辩
 
 - README明确2—4人组队、答辩50分、每人分别撰写的报告50分、小组选1人答辩，注明第一讲课件及录播依据。

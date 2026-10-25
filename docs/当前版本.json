@@ -1,6 +1,25 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-25",
+  "defensePreparation": {
+    "presenter": "组长",
+    "presenterStatus": "暂定",
+    "memberResponsibility": "提交自己部分的改稿，看懂并练熟基本定稿，反馈实际讲不顺或不明白之处",
+    "aiResponsibility": "润色讲稿、必要时联改PPT、核源并集中制作全场答辩材料，不额外要求成员补交整套说明与问答",
+    "leaderResponsibility": "熟悉全场，练习并参加答辩",
+    "nextAction": "精修曹天卓D部分19—24页及对应答辩材料；尚未执行"
+  },
+  "submissionProgress": {
+    "D": {
+      "submittedBy": "曹天卓",
+      "registeredOn": "2026-10-25",
+      "scope": "19—24页口播修订",
+      "pullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/1",
+      "status": "已提交，PR待处理，AI精修与联改待做，未定稿",
+      "merged": false,
+      "finalized": false
+    }
+  },
   "collaborationStyle": "按成员顺手的方式直接改稿、做PPT或提意见；PR与交文件均可，模板可选，不限修改数量、任务编号或分支命名",
   "release": "V5-05",
   "entry": "v5/从这里开始.md",
@@ -13,9 +32,9 @@
     "completeBefore": "2026-11-01T00:00:00+08:00",
     "timezone": "Asia/Shanghai",
     "type": "planned_group_milestone_not_teacher_deadline",
-    "scope": "每人完整Part的PPT、逐页文字稿、相关答辩与本人自检",
-    "status": "计划已确认，尚未登记各人完成",
-    "followUp": "陈云海视情况另行安排后续整合、修改和排练",
+    "scope": "各自Part初稿与本人理解、试讲；后续精修和答辩材料由AI协助集中完成",
+    "status": "D已有来稿，尚未登记任何部分已定稿",
+    "followUp": "组长安排整合、AI精修联改及集中答辩准备",
     "practiceRequired": false
   },
   "practice": "optional_not_started",
