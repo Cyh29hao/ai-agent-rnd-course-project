@@ -1,0 +1,21 @@
+{
+  "sourceSHA256": "358503e9af92a2ec70eea3948c88f68ccef88ee0535df03cb243f4f9196640ff",
+  "candidateSHA256": "d75cdde59518fbe687126be61fc7eaeec7fa77b5252d118dc964f765d9b1b55e",
+  "changedParts": [
+    "ppt/slides/slide19.xml",
+    "ppt/slides/slide21.xml",
+    "ppt/slides/slide22.xml",
+    "ppt/slides/slide23.xml",
+    "ppt/notesSlides/notesSlide22.xml",
+    "ppt/notesSlides/notesSlide23.xml",
+    "ppt/notesSlides/notesSlide24.xml",
+    "ppt/notesSlides/notesSlide33.xml",
+    "ppt/notesSlides/notesSlide19.xml",
+    "ppt/notesSlides/notesSlide20.xml",
+    "ppt/notesSlides/notesSlide21.xml"
+  ],
+  "unchangedPartsByteIdentical": true,
+  "mediaAndWorkbooksPreserved": true,
+  "mainSlides": 24,
+  "totalSlides": 34
+}
