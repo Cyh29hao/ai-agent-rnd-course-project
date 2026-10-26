@@ -29,7 +29,7 @@
 
 ## 当前进展（2026年10月26日）
 
-**D部分的讲稿、PPT联改和组长答辩材料已完成一轮集中精修，06基本稿可供理解与练习。** 曹天卓的[Word来稿与原评阅](collaboration/proposals/D_曹天卓_20261025/README.md)、[PR #1](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/1)均保留。06是独立候选，尚未合并至main或经成员真人试讲；main的既有交付仍是05。
+**D部分的讲稿、PPT联改和组长答辩材料已完成一轮集中精修，06基本稿可供理解与练习。** 曹天卓的[Word来稿与原评阅](collaboration/proposals/D_曹天卓_20261025/README.md)、[PR #1](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/1)均保留。06已发布为[独立候选PR #2](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/2)，尚未合并至main或经成员真人试讲；main的既有交付仍是05。
 
 19页分清策略参数训练与代码修改，21页区分记录和Agent版本返回下一轮，22页明确比较建议尚未实验，23页回答局部自改与持续基础模型研发的关系。14个D追问已核对一手来源，DGM的200题／225题／50题口径分别说明。
 

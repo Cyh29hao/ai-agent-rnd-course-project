@@ -23,7 +23,8 @@
       "aiRefinementCompletedOn": "2026-10-26",
       "humanUnderstandingVerified": false,
       "humanTimingVerified": false,
-      "refinementBranch": "work/d-refinement-06"
+      "refinementBranch": "work/d-refinement-06",
+      "refinementPullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/2"
     }
   },
   "collaborationStyle": "按成员顺手的方式直接改稿、做PPT或提意见；PR与交文件均可，模板可选，不限修改数量、任务编号或分支命名",
