@@ -73,10 +73,11 @@ def convert(src,out):
             p.paragraph_format.keep_together=True
     d.save(out)
 
-jobs=[('01_自然口播稿.md','四人口播_V5.docx'),('04_来源与答辩.md','来源与答辩_V5.docx'),('05_课程报告.md','课程报告_V5.docx')]
-label=os.environ.get('DOC_LABEL','')
-for source,target in jobs:
-    name=Path(target)
-    if label:target=name.stem+'_'+label+name.suffix
-    convert(ROOT/source,ROOT/'outputs'/target)
-print('DOCX_CREATED',len(jobs))
+if __name__=='__main__':
+    jobs=[('01_自然口播稿.md','四人口播_V5.docx'),('04_来源与答辩.md','来源与答辩_V5.docx'),('05_课程报告.md','课程报告_V5.docx')]
+    label=os.environ.get('DOC_LABEL','')
+    for source,target in jobs:
+        name=Path(target)
+        if label:target=name.stem+'_'+label+name.suffix
+        convert(ROOT/source,ROOT/'outputs'/target)
+    print('DOCX_CREATED',len(jobs))

@@ -1,0 +1,57 @@
+[
+  {
+    "source": "11_D部分口播与练习.md",
+    "sourceSha256": "0e9d238ea15137ecf9801b81d090126c19d9ae1f0d9fa1d31c0b5dcb42ba83f2",
+    "docx": "D部分口播与练习_V5_06.docx",
+    "docxSha256": "c0aa5ab6161f91be30ec06025e00c3121b5e7653bbc634c3c52be0cd7198838b",
+    "pdf": "D部分口播与练习_V5_06.pdf",
+    "pages": 2,
+    "renderer": "Microsoft Word COM invisible",
+    "pdfSha256": "7029ca5d94cae4ad528b223b05f265ff09fed2d3daf2ff6b8af2a9ca94a316cc",
+    "pngDirectory": "qa\\d_refinement_06\\documents\\D部分口播与练习_V5_06"
+  },
+  {
+    "source": "10_D部分答辩备课.md",
+    "sourceSha256": "07e9398a54b698cd3c61f05f6508db41cf77908fba11c010e6774248a0575142",
+    "docx": "组长D部分答辩备课_V5_06.docx",
+    "docxSha256": "beee3e0bfb4f871cdcc5836b764bfa14a4e06a1923f50a0f4a1cad9922fe5b98",
+    "pdf": "组长D部分答辩备课_V5_06.pdf",
+    "pages": 6,
+    "renderer": "Microsoft Word COM invisible",
+    "pdfSha256": "91b16c737fcbfeec295a82422139314a880026fc83547e2a70e0dd4c3ace7168",
+    "pngDirectory": "qa\\d_refinement_06\\documents\\组长D部分答辩备课_V5_06"
+  },
+  {
+    "source": "01_自然口播稿.md",
+    "sourceSha256": "190027dab1a4dbbe524368d122dd0820987c713a78151c63ddde63225afd6cd4",
+    "docx": "全场口播_V5_06.docx",
+    "docxSha256": "c00cfa53ed5b45c46cf714f66b13f7416a518b05eee01f59cb36409aaa7d316d",
+    "pdf": "全场口播_V5_06.pdf",
+    "pages": 5,
+    "renderer": "Microsoft Word COM invisible",
+    "pdfSha256": "8c39be8f856647154c275c195954dcfff084e461a408162387c863ad0ea73770",
+    "pngDirectory": "qa\\d_refinement_06\\documents\\全场口播_V5_06"
+  },
+  {
+    "source": "04_来源与答辩.md",
+    "sourceSha256": "9a7414ee24a91be0c1e692626bb47dd72e1b12923e122cfbf12900e5e57757ac",
+    "docx": "来源与答辩_V5_06.docx",
+    "docxSha256": "3157f0b56d56e01e7db6c61833db18f0b76a5d46780f70a03259c52aeda91e5c",
+    "pdf": "来源与答辩_V5_06.pdf",
+    "pages": 11,
+    "renderer": "Microsoft Word COM invisible",
+    "pdfSha256": "13288408037edc165c31b4836ae34821c20bbb063ea5c493fc70993c4253e8dc",
+    "pngDirectory": "qa\\d_refinement_06\\documents\\来源与答辩_V5_06"
+  },
+  {
+    "source": "05_课程报告.md",
+    "sourceSha256": "1bd5087fc96fa549a3f07866277a4ed52992ea640c1f9b6d430be8908fac9859",
+    "docx": "课程报告_V5_06.docx",
+    "docxSha256": "439f60f226af3f097ff1a122c9a140b12bdc6e6bdda79f975b3193ff5b9c26c0",
+    "pdf": "课程报告_V5_06.pdf",
+    "pages": 8,
+    "renderer": "Microsoft Word COM invisible",
+    "pdfSha256": "b693a739e2103f5be9491c50047cf0dcfb4a3922f191e9c05e06aa6388720df4",
+    "pngDirectory": "qa\\d_refinement_06\\documents\\课程报告_V5_06"
+  }
+]
