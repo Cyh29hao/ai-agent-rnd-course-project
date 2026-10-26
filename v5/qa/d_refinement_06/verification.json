@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "revision": "V5-06",
+  "mainSlides": 24,
+  "totalSlides": 34,
+  "changedPackageParts": [
+    "ppt/slides/slide19.xml",
+    "ppt/slides/slide21.xml",
+    "ppt/slides/slide22.xml",
+    "ppt/slides/slide23.xml",
+    "ppt/notesSlides/notesSlide22.xml",
+    "ppt/notesSlides/notesSlide23.xml",
+    "ppt/notesSlides/notesSlide24.xml",
+    "ppt/notesSlides/notesSlide33.xml",
+    "ppt/notesSlides/notesSlide19.xml",
+    "ppt/notesSlides/notesSlide20.xml",
+    "ppt/notesSlides/notesSlide21.xml"
+  ],
+  "changedProjectionPages": [
+    19,
+    21,
+    22,
+    23
+  ],
+  "unchangedPageCount": 30,
+  "mediaChartsAndWorkbooksByteIdentical": true,
+  "DNotesAndTwoScriptsMatch": true,
+  "ABCSourceUnchanged": true,
+  "DDesignSeconds": 190,
+  "humanTimingVerified": false,
+  "practiceRun": false,
+  "nativeOpenAndPDFExport": true,
+  "native06PlaybackRetested": false,
+  "playbackBoundary": "Media and slide11 are byte-identical to previously playback-tested05;06 opened and rendered natively without a foreground slideshow.",
+  "printedDocumentPages": {
+    "D部分口播与练习_V5_06.docx": 2,
+    "组长D部分答辩备课_V5_06.docx": 6,
+    "全场口播_V5_06.docx": 5,
+    "来源与答辩_V5_06.docx": 11,
+    "课程报告_V5_06.docx": 8
+  },
+  "historical05Preserved": {
+    "智能体产业研发_V5_05.pptx": "358503e9af92a2ec70eea3948c88f68ccef88ee0535df03cb243f4f9196640ff",
+    "智能体产业研发_V5_05_主讲.pdf": "3dbe527b2d6e8e573f106dc72d37b5e583547c97753c862dc6282d76728a0beb",
+    "智能体产业研发_V5_05_含答辩.pdf": "3d2dc7009bc92e79c7d1b737f389ace245d4eb8828c7e238b87e0eedbe08fc23"
+  },
+  "DOriginalSha256": "a47a1d4099d8f7e2b48686854f7802e7e4bfc47b90f46673f63b960313b22bf6",
+  "DOnlyPDFMatches": true,
+  "finalPptxSha256": "d75cdde59518fbe687126be61fc7eaeec7fa77b5252d118dc964f765d9b1b55e",
+  "visualReviewIsSeparate": "See visual_review.md; this script does not infer visual acceptance."
+}

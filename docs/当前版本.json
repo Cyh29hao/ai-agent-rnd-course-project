@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "defensePreparation": {
     "presenter": "组长",
     "presenterStatus": "暂定",
     "memberResponsibility": "提交自己部分的改稿，看懂并练熟基本定稿，反馈实际讲不顺或不明白之处",
     "aiResponsibility": "润色讲稿、必要时联改PPT、核源并集中制作全场答辩材料，不额外要求成员补交整套说明与问答",
     "leaderResponsibility": "熟悉全场，练习并参加答辩",
-    "nextAction": "精修曹天卓D部分19—24页及对应答辩材料；尚未执行"
+    "nextAction": "D材料已成套并通过本机验收；成员理解练习、组长熟悉与试讲后反馈具体问题。其他部分按原分工继续。"
   },
   "submissionProgress": {
     "D": {
@@ -15,13 +15,20 @@
       "registeredOn": "2026-10-25",
       "scope": "19—24页口播修订",
       "pullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/1",
-      "status": "已提交，PR待处理，AI精修与联改待做，未定稿",
+      "status": "AI精修、联改、核源及本机验收完成；06基本稿可供理解练习，候选待组长采用",
       "merged": false,
-      "finalized": false
+      "finalized": false,
+      "aiRefinementComplete": true,
+      "readyForPractice": true,
+      "aiRefinementCompletedOn": "2026-10-26",
+      "humanUnderstandingVerified": false,
+      "humanTimingVerified": false,
+      "refinementBranch": "work/d-refinement-06",
+      "refinementPullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/2"
     }
   },
   "collaborationStyle": "按成员顺手的方式直接改稿、做PPT或提意见；PR与交文件均可，模板可选，不限修改数量、任务编号或分支命名",
-  "release": "V5-05",
+  "release": "V5-06",
   "entry": "v5/从这里开始.md",
   "mainSlides": 24,
   "referenceSlides": 2,
@@ -33,7 +40,7 @@
     "timezone": "Asia/Shanghai",
     "type": "planned_group_milestone_not_teacher_deadline",
     "scope": "各自Part初稿与本人理解、试讲；后续精修和答辩材料由AI协助集中完成",
-    "status": "D已有来稿，尚未登记任何部分已定稿",
+    "status": "D已有成套06基本稿；成员本人理解、试讲与其他段落的准备情况未核认",
     "followUp": "组长安排整合、AI精修联改及集中答辩准备",
     "practiceRequired": false
   },
@@ -51,16 +58,40 @@
   "speakerAssignmentsConfirmed": true,
   "speakerAssignmentsConfirmedOn": "2026-10-15",
   "speakerAssignments": [
-    {"part": "A", "name": "陈云海", "startPage": 1, "endPage": 7, "designSeconds": 205},
-    {"part": "B", "name": "张程翔", "startPage": 8, "endPage": 13, "designSeconds": 260},
-    {"part": "C", "name": "赵金城", "startPage": 14, "endPage": 18, "designSeconds": 195},
-    {"part": "D", "name": "曹天卓", "startPage": 19, "endPage": 24, "designSeconds": 190}
+    {
+      "part": "A",
+      "name": "陈云海",
+      "startPage": 1,
+      "endPage": 7,
+      "designSeconds": 205
+    },
+    {
+      "part": "B",
+      "name": "张程翔",
+      "startPage": 8,
+      "endPage": 13,
+      "designSeconds": 260
+    },
+    {
+      "part": "C",
+      "name": "赵金城",
+      "startPage": 14,
+      "endPage": 18,
+      "designSeconds": 195
+    },
+    {
+      "part": "D",
+      "name": "曹天卓",
+      "startPage": 19,
+      "endPage": 24,
+      "designSeconds": 190
+    }
   ],
   "currentWorkFocus": {
     "owner": "陈云海",
     "primaryPart": "A",
     "scope": "精修01—07页，同时熟悉、审核、统稿并衔接其他部分",
-    "status": "方向已确认，内容精修尚未开始"
+    "status": "D精修本轮完成；组长后续仍以A为主并审核衔接全场，未在本轮开展A重写"
   },
   "suggestedNextDirections": {
     "A": "精修01—07开场、历史、动机、案例选择与三角色；审核全场与首尾衔接",
@@ -71,16 +102,60 @@
   "fullCourseGoalComplete": false,
   "artifacts": {
     "deck": {
-      "path": "v5/outputs/智能体产业研发_V5_05.pptx",
-      "sha256": "358503e9af92a2ec70eea3948c88f68ccef88ee0535df03cb243f4f9196640ff"
+      "path": "v5/outputs/智能体产业研发_V5_06.pptx",
+      "sha256": "d75cdde59518fbe687126be61fc7eaeec7fa77b5252d118dc964f765d9b1b55e"
     },
     "mainPdf": {
-      "path": "v5/outputs/智能体产业研发_V5_05_主讲.pdf",
-      "sha256": "3dbe527b2d6e8e573f106dc72d37b5e583547c97753c862dc6282d76728a0beb"
+      "path": "v5/outputs/智能体产业研发_V5_06_主讲.pdf",
+      "sha256": "3d524ef48dd75a568123c19b0c42842289162b37fa5b0a93bd76006bd1637e8c"
     },
     "fullPdf": {
-      "path": "v5/outputs/智能体产业研发_V5_05_含答辩.pdf",
-      "sha256": "3d2dc7009bc92e79c7d1b737f389ace245d4eb8828c7e238b87e0eedbe08fc23"
+      "path": "v5/outputs/智能体产业研发_V5_06_含答辩.pdf",
+      "sha256": "c004779879407a3943766f5b81cce5c020452edaa4bb85cabfc8738ef1676f77"
+    },
+    "DSlidesPdf": {
+      "path": "v5/outputs/D部分投影_V5_06.pdf",
+      "sha256": "cdc69832f49d51e0a9d7f79d3ca31cfda3ffc62455fed1912d5c080cf1f38e0b"
+    },
+    "DSpokenDOCX": {
+      "path": "v5/outputs/D部分口播与练习_V5_06.docx",
+      "sha256": "c0aa5ab6161f91be30ec06025e00c3121b5e7653bbc634c3c52be0cd7198838b"
+    },
+    "DSpokenPDF": {
+      "path": "v5/outputs/D部分口播与练习_V5_06.pdf",
+      "sha256": "7029ca5d94cae4ad528b223b05f265ff09fed2d3daf2ff6b8af2a9ca94a316cc"
+    },
+    "DDefenseDOCX": {
+      "path": "v5/outputs/组长D部分答辩备课_V5_06.docx",
+      "sha256": "beee3e0bfb4f871cdcc5836b764bfa14a4e06a1923f50a0f4a1cad9922fe5b98"
+    },
+    "DDefensePDF": {
+      "path": "v5/outputs/组长D部分答辩备课_V5_06.pdf",
+      "sha256": "91b16c737fcbfeec295a82422139314a880026fc83547e2a70e0dd4c3ace7168"
+    },
+    "fullSpokenDOCX": {
+      "path": "v5/outputs/全场口播_V5_06.docx",
+      "sha256": "c00cfa53ed5b45c46cf714f66b13f7416a518b05eee01f59cb36409aaa7d316d"
+    },
+    "fullSpokenPDF": {
+      "path": "v5/outputs/全场口播_V5_06.pdf",
+      "sha256": "8c39be8f856647154c275c195954dcfff084e461a408162387c863ad0ea73770"
+    },
+    "sourcesDefenseDOCX": {
+      "path": "v5/outputs/来源与答辩_V5_06.docx",
+      "sha256": "3157f0b56d56e01e7db6c61833db18f0b76a5d46780f70a03259c52aeda91e5c"
+    },
+    "sourcesDefensePDF": {
+      "path": "v5/outputs/来源与答辩_V5_06.pdf",
+      "sha256": "13288408037edc165c31b4836ae34821c20bbb063ea5c493fc70993c4253e8dc"
+    },
+    "sharedReportDOCX": {
+      "path": "v5/outputs/课程报告_V5_06.docx",
+      "sha256": "439f60f226af3f097ff1a122c9a140b12bdc6e6bdda79f975b3193ff5b9c26c0"
+    },
+    "sharedReportPDF": {
+      "path": "v5/outputs/课程报告_V5_06.pdf",
+      "sha256": "b693a739e2103f5be9491c50047cf0dcfb4a3922f191e9c05e06aa6388720df4"
     }
   },
   "sources": {
@@ -90,7 +165,10 @@
     "referencesAndDefense": "v5/04_来源与答辩.md",
     "speakerCards": "v5/02_四人速读与排练.md",
     "defenseNavigation": "v5/03_答辩现场导航.md",
-    "layout": "v5/_build/build_deck.mjs"
+    "layout": "v5/_build/build_deck.mjs",
+    "DSpoken": "v5/11_D部分口播与练习.md",
+    "DDefense": "v5/10_D部分答辩备课.md",
+    "DLayout": "v5/_build/build_d_06.mjs"
   },
   "collaboration": {
     "guide": "docs/协作说明.md",
@@ -102,5 +180,8 @@
     "practiceOptions": "docs/实践选项与旧实验说明.md",
     "pullRequests": "docs/PR协作与更新速查.md",
     "updates": "CHANGELOG.md"
-  }
+  },
+  "releaseStatus": "candidate_ready_for_review_and_practice",
+  "baseRelease": "V5-05",
+  "mergedIntoMain": false
 }
