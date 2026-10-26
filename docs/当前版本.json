@@ -15,16 +15,21 @@
       "registeredOn": "2026-10-25",
       "scope": "19—24页口播修订",
       "pullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/1",
-      "status": "AI精修、联改、核源及本机验收完成；06基本稿可供理解练习，候选待组长采用",
+      "status": "D精修基本稿经组长同意采用，PR #2已合并至main；PR #1原来稿保留、未单独合并",
       "merged": false,
-      "finalized": false,
+      "finalized": true,
       "aiRefinementComplete": true,
       "readyForPractice": true,
       "aiRefinementCompletedOn": "2026-10-26",
       "humanUnderstandingVerified": false,
       "humanTimingVerified": false,
       "refinementBranch": "work/d-refinement-06",
-      "refinementPullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/2"
+      "refinementPullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/2",
+      "refinementMerged": true,
+      "refinementMergeCommit": "d1129ecbc73b24b9b237ec9335f9fa129338e7c0",
+      "refinementMergedOn": "2026-10-26",
+      "originalPullRequestMerged": false,
+      "finalizationScope": "材料基本稿已采用，不代表真人理解、试讲或最终课程提交"
     }
   },
   "collaborationStyle": "按成员顺手的方式直接改稿、做PPT或提意见；PR与交文件均可，模板可选，不限修改数量、任务编号或分支命名",
@@ -181,7 +186,7 @@
     "pullRequests": "docs/PR协作与更新速查.md",
     "updates": "CHANGELOG.md"
   },
-  "releaseStatus": "candidate_ready_for_review_and_practice",
+  "releaseStatus": "adopted_on_main_ready_for_practice",
   "baseRelease": "V5-05",
-  "mergedIntoMain": false
+  "mergedIntoMain": true
 }

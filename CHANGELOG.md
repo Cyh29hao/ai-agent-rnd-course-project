@@ -1,8 +1,14 @@
 # 更新速览
 
-这里只记全组需要知道的变化。**材料完成、候选发布、合并采用与真人验收分开记录。** 本分支是已验收的V5修订06候选，main既有交付仍为05；路径与状态见[版本清单](docs/当前版本.json)。
+这里只记全组需要知道的变化。**材料完成、候选发布、合并采用与真人验收分开记录。** 当前main已采用V5修订06，路径与状态见[版本清单](docs/当前版本.json)。
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
+
+## 2026-10-26｜D精修稿获采用，06已合并至main
+
+- 组长同意合并PR #2，06成为当前使用版本；README顶部直接提供D口播、对应投影、组长备课和全场PPT入口。
+- 同步版本清单、交付入口、分工与项目状态，区分PR #2已合并和PR #1原来稿仍单独保留。
+- 成员真人理解、试讲计时与最终课程提交尚未验证；05与原Word继续保留。
 
 ## 2026-10-26｜D的06基本稿成套，供成员理解练习和组长备答辩
 
