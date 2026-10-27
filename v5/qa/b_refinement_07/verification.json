@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "revision": "V5-07-candidate",
+  "officialVersionPromoted": false,
+  "mainSlides": 24,
+  "totalSlides": 34,
+  "BOnlySlides": 6,
+  "fullPdf": "v5/outputs/智能体产业研发_V5_07_候选_含答辩.pdf",
+  "bOnlyPdf": "v5/outputs/B部分投影_V5_07_候选.pdf",
+  "changedProjectionPages": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    29
+  ],
+  "otherProjectionPagesPixelIdenticalToV5_06": true,
+  "BDesignSeconds": 260,
+  "humanTimingVerified": false,
+  "speakerNotesMatchSource": true,
+  "slide11EmbeddedMp4": true,
+  "slide13NativeEditableChart": true,
+  "slide13Values": [
+    0.06,
+    0.029,
+    0.165,
+    0.233
+  ],
+  "candidateSha256": "c0ceb9ebd39082be9cfed64af1af6f67c9e7d33f63587b08f170f9f3e75277c8",
+  "videoSha256": "b7bb37e959b7f40282e58287c58621a34e7e8a806db4be457b175a87ed7f40a5"
+}
