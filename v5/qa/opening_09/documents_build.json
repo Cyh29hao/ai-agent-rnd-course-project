@@ -1,0 +1,32 @@
+[
+  {
+    "source": "17_A部分口播与练习.md",
+    "sourceSha256": "19188541f98088de968a39bf338b02c1ebee6048ca9f33fc36f3f228ff12bcc7",
+    "docx": "A部分口播与练习_V5_09.docx",
+    "docxSha256": "e23c619d37bca7ecf61db3379c403c6bc6589606c2b308cbaf0fd13d32b6fb4b"
+  },
+  {
+    "source": "01_自然口播稿.md",
+    "sourceSha256": "08debe4e96ef51476d6dcdf8dcaeede30201cce9458b35bbd290ea905b06d8dc",
+    "docx": "全场口播_V5_09.docx",
+    "docxSha256": "935a779eefa28fa8e729a0c30332513afc6ff822397992245c2e36f02efd9641"
+  },
+  {
+    "source": "04_来源与答辩.md",
+    "sourceSha256": "ace023eaead92827ee87acf9f64feff1e30198203a8024170fdda3817698444a",
+    "docx": "来源与答辩_V5_09.docx",
+    "docxSha256": "93fed75774a0075a1173bf098f3dd8c55522cc76cc8776435cd687d2ba083f7c"
+  },
+  {
+    "source": "18_A部分答辩备课.md",
+    "sourceSha256": "df6b4331e061228b0b247d37a15b7bb3b9eb83f88cae19c6390366c381a8d314",
+    "docx": "组长A部分答辩备课_V5_09.docx",
+    "docxSha256": "e637d88b6cfe64f9b91413f5d8eab98a9433a052ce27d6e7c0b98ab64a2a4779"
+  },
+  {
+    "source": "05_课程报告.md",
+    "sourceSha256": "0762a8abcaeb90a5ffd4b9d6d5222e63a90f6ff760d573bbf8ed86e8bc5fdad5",
+    "docx": "课程报告_V5_09.docx",
+    "docxSha256": "b371d8a4cbe29c2afcbed898e4fca62de3414197446b657ac0a9a3530658b5da"
+  }
+]

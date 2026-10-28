@@ -1,0 +1,14 @@
+{
+  "ASeconds": 205,
+  "AChineseCharacters": 700,
+  "navigation": [
+    "一  选题与主线",
+    "二  Anthropic：模型训练",
+    "三  OpenAI与Google：研发流程与程序优化",
+    "四  Agent自我改进与下一轮研发"
+  ],
+  "mainSlides": 24,
+  "totalSlides": 34,
+  "BCDContentUnchanged": true,
+  "humanTimingVerified": false
+}

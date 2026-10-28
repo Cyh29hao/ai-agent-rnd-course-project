@@ -1,0 +1,10 @@
+{
+  "changedPackageParts": [
+    "ppt/media/media1.mp4",
+    "ppt/media/image1.png"
+  ],
+  "change": "Only the part heading in the three existing native teaching frames; sequence, six seconds per stage and mechanisms retained",
+  "video": "蒸馏机制_B09_18秒.mp4",
+  "videoSha256": "eefc139c25ac7ee08a19bec3130be2d214b39a97d9301ec191a0d73aee301ad5",
+  "designSeconds": 18
+}

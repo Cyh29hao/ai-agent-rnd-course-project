@@ -1,8 +1,15 @@
 # 更新速览
 
-这里只记全组需要知道的变化。**材料完成、候选发布、合并采用与真人验收分开记录。** 当前使用V5-08，A精修与全场联动材料已验收发布；实际路径与采用状态见[版本清单](docs/当前版本.json)。
+这里只记全组需要知道的变化。**材料完成、候选发布、合并采用与真人验收分开记录。** 当前使用V5-09，开场与全场目录导航已验收发布；实际路径与采用状态见[版本清单](docs/当前版本.json)。
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
+
+## 2026-10-28｜09开场与目录导航已发布
+
+- 按组长反馈，先交代主题一的行业应用案例定位：Agent参与AI研发，改进模型、工具和Agent自身。
+- 01页重写应用动机，02页新增四部分目录，03页合并RSI释义与autoresearch；A仍为7页205秒。
+- 后续主讲页使用目录同名部分标题；B—D正文、数字与媒体保留。全场及A资料用09，B/D口播备课仍07/06，三部分投影更新09。
+- 本轮验收通过，已发布至main，实际状态见[09交付说明](v5/20_09交付与验收.md)。
 
 ## 2026-10-28｜A精修完成，08整套材料发布
 

@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "revision": "V5-09",
+  "mainSlides": 24,
+  "ASeconds": 205,
+  "all23PartHeadersMatchDirectory": true,
+  "BCDContentUnchanged": true,
+  "allNotesMatch": true,
+  "nonVideoBodyPixelsBelowHeaderPreserved": true,
+  "chartsAndWorkbooksByteIdentical": true,
+  "videoChange": "Part heading only, three native teaching stages, 18 seconds",
+  "finalPptxSha256": "662c5017c52c979115f83ab070f4e615e0c4eba77fc3d12be8d07ad071eade8c",
+  "printedPages": {
+    "A部分口播与练习_V5_09.pdf": 2,
+    "全场口播_V5_09.pdf": 5,
+    "来源与答辩_V5_09.pdf": 12,
+    "组长A部分答辩备课_V5_09.pdf": 3,
+    "课程报告_V5_09.pdf": 8
+  },
+  "humanTimingVerified": false
+}

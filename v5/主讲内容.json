@@ -1,56 +1,58 @@
 [
   {
     "n": 1,
-    "section": "开场",
-    "title": "智能体在大模型产业研发中的应用",
-    "seconds": 15,
+    "section": "一  选题与主线",
+    "title": "智能体在AI研发中的应用",
+    "seconds": 25,
     "layout": "cover",
     "body": [
-      "AI辅助研发距离递归自我改进还有多远？",
-      "以Anthropic、OpenAI等公司的公开实践为例"
+      "从改进模型与工具，到改进Agent自身",
+      "主题一：行业应用案例研究"
     ],
-    "sources": [],
-    "script": "大家好。今天我们看智能体怎样参与大模型研发。AI不只在帮助完成任务，也开始帮助研发AI本身。那么，这些改进能不能让下一轮研发变得更快、更好？",
-    "note": "A08开场。封面沿用正式07视觉；提出由D回答的全场问题。"
+    "sources": [
+      10
+    ],
+    "script": "从聊天问答到调用工具完成任务，Agent正进入更多应用。要让它们更好用，模型、工具和行动流程都得继续改进。过去主要由人做的研发，今天也开始交给Agent。我们选的行业就是AI研发：看Agent怎样在人类设定目标和审核下，参与改进模型与Agent自身。",
+    "note": "采用用户的课程应用案例视角。不是宣称chatbot已消失，或所有Agent研发都等同RSI；研究对象兼有模型、工具、流程与Agent自身。[10]展示人类与AI研发分工的变化。"
   },
   {
     "n": 2,
-    "section": "一  问题与动机",
-    "title": "RSI：让改进能力进入下一轮",
-    "seconds": 25,
+    "section": "一  选题与主线",
+    "title": "从已有系统出发，沿四部分看它怎样变好",
+    "seconds": 20,
     "layout": "history",
     "body": [
-      "Recursive Self-Improvement｜递归自我改进",
-      "改进后的研究系统，继续推动后续改进",
-      "1965：Good提出机器设计更好机器的设想"
+      "一  选题与主线",
+      "二  Anthropic：模型训练",
+      "三  OpenAI与Google：研发流程与程序优化",
+      "四  Agent自我改进与下一轮研发"
     ],
-    "sources": [
-      1,
-      10
-    ],
-    "script": "RSI的英文是Recursive Self-Improvement，中文叫递归自我改进。这里的递归，是说改进后的系统还能继续参与后续改进。早在1965年，Good就设想过机器设计更好的机器。今天我们把这个问题落到研发上：不只看它产出了什么，还要看它是否更有能力做下一轮研究。",
-    "note": "[1]为历史背景；[10]为完整后继研发愿景。RSI也有Agent代码层的局部用法，不用固定底模或人工参与直接否定一切RSI。"
+    "sources": [],
+    "script": "整场沿一条主线：从已有系统出发，Agent参与修改和验证，让它更好。先讲选题与主线，再看Anthropic的模型训练，接着看OpenAI与Google的研发流程和程序优化，最后看Agent自我改进与下一轮研发。",
+    "note": "四部分目录与后续页眉逐字对应。保持A01—07、B08—13、C14—18、D19—24分工；千问AgentEvolver属于D，不静默移到C。不是所有案例都训练同一个baseline Agent。"
   },
   {
     "n": 3,
-    "section": "一  问题与动机",
-    "title": "autoresearch：先把实验循环交给AI",
-    "seconds": 35,
+    "section": "一  选题与主线",
+    "title": "从自动研究，走向递归自我改进",
+    "seconds": 40,
     "layout": "tasks",
     "body": [
-      "Karpathy，2026年3月：单GPU上的小模型训练研究",
-      "改代码 → 训练 → 比较指标 → 保留或丢弃 → 再试",
-      "自动研究，进一步走向研究者自身的改进"
+      "RSI：Recursive Self-Improvement｜递归自我改进",
+      "autoresearch：改代码、训练、比较，再继续",
+      "RSI进一步看：成果能否提高下一轮研发能力"
     ],
     "sources": [
+      1,
+      10,
       12
     ],
-    "script": "一个直观入口是Karpathy今年三月开源的autoresearch。AI修改训练代码，让小模型训练五分钟，再看验证指标，保留有效修改，继续尝试。原版用一张GPU就能开始。它把研究中的实验循环自动化了。RSI则进一步追问：这些成果能不能让研究者自己更会研究？所以，自动研究是走向递归自改的一条路径，但完成一次实验循环，还没有回答后一个问题。",
-    "note": "[12]README How it works / Design choices。5分钟是训练墙钟预算，不含启动和编译，不是整个实验总时长。原项目不自动更新研究Agent基础模型。自动研究方向早于该项目，见[14]，不称Karpathy首创整个概念。"
+    "script": "RSI是Recursive Self-Improvement，递归自我改进：改进后的系统还能推动下一轮改进。Karpathy今年三月开源的autoresearch提供了一个小入口：Agent改训练代码，让小模型训练五分钟，比较结果，再继续。这是自动研究；要进一步谈RSI，还得看成果能否让研究者自己更会研究。",
+    "note": "[12]原版单GPU；五分钟只指训练预算，不含启动和编译。[1]Good1965历史、[14]更早自动研究放入备课，不挤目录。Agent程序层局部RSI可成立，不限定必须训练基础模型权重。"
   },
   {
     "n": 4,
-    "section": "一  问题与动机",
+    "section": "一  选题与主线",
     "title": "研发能力也能改进，意义就不止一次提效",
     "seconds": 30,
     "layout": "routes",
@@ -68,9 +70,9 @@
   },
   {
     "n": 5,
-    "section": "一  问题与动机",
+    "section": "一  选题与主线",
     "title": "小实验能起步，前沿规模还要过资源关",
-    "seconds": 40,
+    "seconds": 35,
     "layout": "agenda",
     "body": [
       "会研究：模型能力、工具与研究判断",
@@ -86,9 +88,9 @@
   },
   {
     "n": 6,
-    "section": "一  问题与动机",
+    "section": "一  选题与主线",
     "title": "从自动实验，追到下一轮研发",
-    "seconds": 30,
+    "seconds": 25,
     "layout": "selection",
     "body": [
       "Anthropic：训练方法怎样进入模型",
@@ -103,12 +105,12 @@
       8,
       13
     ],
-    "script": "现在，自动跑实验、优化训练程序，以及Agent修改自身代码，都已有公开实例。最近的AIDE²也报告了研究Agent代码层的连续改进。接下来，我们重点看Anthropic怎样改模型，OpenAI作者怎样组织评测，再用Google和开放研究补齐程序与Agent。沿着这条研发链，最后再回答：哪些成果已经回到下一轮，还有哪些能力需要继续验证？",
+    "script": "Agent的能力由模型、工具和运行流程共同支撑。所以我们选Anthropic看模型训练，选OpenAI与Google看评测和程序优化，再用开放研究看Agent自身改进。AIDE²也报告了代码层的连续改进。这样，后面每个案例都能接回同一个研发问题。",
     "note": "已有案例[4]—[8]；AIDE²[13]为2026-09-22预印本作者报告。这里只提一句，不展开新基准和数字。主实验固定各循环底模、改harness代码；不是前沿基础模型多代训练。"
   },
   {
     "n": 7,
-    "section": "二  模型改进  Anthropic",
+    "section": "一  选题与主线",
     "title": "任务：让模型少迎合错误观点",
     "seconds": 30,
     "layout": "roles",
@@ -120,12 +122,12 @@
     "sources": [
       4
     ],
-    "script": "先落到Anthropic Fellows的一项对齐研究：让模型少迎合用户的错误观点。这里有三个角色。Claude Opus 4.8驱动研究Agent，负责想方法、写实现；Qwen3.5-2B是被训练的目标模型；评测器检查行为改善和能力副作用。先分清谁在研究、谁被改变，下面再看Agent怎样把一个想法变成训练和评测。",
+    "script": "先从Agent的重要基础——模型能力看起。Anthropic Fellows的一项研究要减少模型迎合错误观点。Claude Opus 4.8驱动研究Agent，提出方法和实现；Qwen3.5-2B是被训练的目标模型；评测器检查改善和能力副作用。这里，Agent是研发者，模型是改进对象。下面看它怎样把想法变成训练和评测。",
     "note": "[4]§2—3、App.D.4。保留与B第8页的角色和术语，具体实验规则及机制由B展开。"
   },
   {
     "n": 8,
-    "section": "二  模型改进  Anthropic",
+    "section": "二  Anthropic：模型训练",
     "title": "一轮研究要交付可审查、可训练、可评测的方法",
     "seconds": 40,
     "layout": "experiment",
@@ -144,7 +146,7 @@
   },
   {
     "n": 9,
-    "section": "二  模型改进  Anthropic",
+    "section": "二  Anthropic：模型训练",
     "title": "下一次尝试，能读到之前的成功与失败",
     "seconds": 40,
     "layout": "memory",
@@ -161,7 +163,7 @@
   },
   {
     "n": 10,
-    "section": "二  模型改进  Anthropic",
+    "section": "二  Anthropic：模型训练",
     "title": "先用激活引导，构造一个更少谄媚的教师",
     "seconds": 50,
     "layout": "steering",
@@ -179,7 +181,7 @@
   },
   {
     "n": 11,
-    "section": "二  模型改进  Anthropic",
+    "section": "二  Anthropic：模型训练",
     "title": "再用KL蒸馏，把教师行为写进学生权重",
     "seconds": 50,
     "layout": "distill",
@@ -196,7 +198,7 @@
   },
   {
     "n": 12,
-    "section": "二  模型改进  Anthropic",
+    "section": "二  Anthropic：模型训练",
     "title": "改善空间：先弄清百分数的分母",
     "seconds": 40,
     "layout": "headroom",
@@ -214,7 +216,7 @@
   },
   {
     "n": 13,
-    "section": "二  模型改进  Anthropic",
+    "section": "二  Anthropic：模型训练",
     "title": "同一案例中，训练目标比增加数据自由度更关键",
     "seconds": 40,
     "layout": "results",
@@ -233,7 +235,7 @@
   },
   {
     "n": 14,
-    "section": "三  研发流程  OpenAI",
+    "section": "三  OpenAI与Google：研发流程与程序优化",
     "title": "另一项任务：把发布前评测跑清楚",
     "seconds": 35,
     "layout": "evaltask",
@@ -249,7 +251,7 @@
   },
   {
     "n": 15,
-    "section": "三  研发流程  OpenAI",
+    "section": "三  OpenAI与Google：研发流程与程序优化",
     "title": "执行之前，研究员先审阅计划",
     "seconds": 40,
     "layout": "approval",
@@ -266,7 +268,7 @@
   },
   {
     "n": 16,
-    "section": "三  研发流程  OpenAI",
+    "section": "三  OpenAI与Google：研发流程与程序优化",
     "title": "Runme让下一次任务能接着做",
     "seconds": 40,
     "layout": "record",
@@ -282,7 +284,7 @@
   },
   {
     "n": 17,
-    "section": "三  其他研发对象  Google",
+    "section": "三  OpenAI与Google：研发流程与程序优化",
     "title": "AlphaEvolve把程序候选交给自动评测",
     "seconds": 40,
     "layout": "evolution",
@@ -298,7 +300,7 @@
   },
   {
     "n": 18,
-    "section": "三  其他研发对象  Google",
+    "section": "三  OpenAI与Google：研发流程与程序优化",
     "title": "算子加速23%，对应总训练时间减少1%",
     "seconds": 40,
     "layout": "localglobal",
@@ -314,7 +316,7 @@
   },
   {
     "n": 19,
-    "section": "三  开放研究",
+    "section": "四  Agent自我改进与下一轮研发",
     "title": "Agent策略与自身代码，也成为改进对象",
     "seconds": 40,
     "layout": "open",
@@ -333,7 +335,7 @@
   },
   {
     "n": 20,
-    "section": "四  回到RSI",
+    "section": "四  Agent自我改进与下一轮研发",
     "title": "这些案例改变了研发系统的不同部分",
     "seconds": 40,
     "layout": "comparison",
@@ -354,7 +356,7 @@
   },
   {
     "n": 21,
-    "section": "四  回到RSI",
+    "section": "四  Agent自我改进与下一轮研发",
     "title": "把上一轮的成果带进下一轮研发",
     "seconds": 45,
     "layout": "rsi",
@@ -374,7 +376,7 @@
   },
   {
     "n": 22,
-    "section": "四  回到RSI",
+    "section": "四  Agent自我改进与下一轮研发",
     "title": "下一轮，能不能研究得更好？",
     "seconds": 35,
     "layout": "evidence",
@@ -393,7 +395,7 @@
   },
   {
     "n": 23,
-    "section": "四  回到RSI",
+    "section": "四  Agent自我改进与下一轮研发",
     "title": "局部自改已经发生，下一步看持续研发",
     "seconds": 25,
     "layout": "conclusion",
@@ -414,7 +416,7 @@
   },
   {
     "n": 24,
-    "section": "结束",
+    "section": "四  Agent自我改进与下一轮研发",
     "title": "谢谢，欢迎提问",
     "seconds": 5,
     "layout": "thanks",

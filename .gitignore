@@ -29,4 +29,6 @@ v5/_build/*.ndjson
 v5/_build/*.log
 v5/_build/b_integration_07/
 v5/_build/a_refinement_08/
+v5/_build/opening_09/
+~$*
 v5/.chart-data-*/
