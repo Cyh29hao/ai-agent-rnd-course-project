@@ -1,0 +1,12 @@
+{
+  "nativeOpen": true,
+  "source": "_build/inspiration_10/merged.pptx",
+  "candidateSha256": "72cca14f510a8f43825bc31c972880efae10b6a706be49d3d3a7ef0fb28bc510",
+  "slides": 34,
+  "mediaMilliseconds": [
+    18000
+  ],
+  "renderer": "Microsoft PowerPoint invisible",
+  "foregroundPlaybackTested": false,
+  "PDF": "Static native diagram on page11; teaching video removed from unsaved copy only."
+}

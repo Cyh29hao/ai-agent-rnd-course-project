@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "ASeconds": 205,
+  "unchangedProjectionPages": "06—34",
+  "unchangedPageCount": 29,
+  "mediaChartsWorkbooksByteIdentical": true,
+  "allScriptsMatchPrint": true,
+  "nativePptxSha256": "72cca14f510a8f43825bc31c972880efae10b6a706be49d3d3a7ef0fb28bc510",
+  "printedPages": {
+    "A部分口播与练习_V5_10.pdf": 2,
+    "组长A部分答辩备课_V5_10.pdf": 3,
+    "全场口播_V5_10.pdf": 5
+  },
+  "humanTimingVerified": false
+}
