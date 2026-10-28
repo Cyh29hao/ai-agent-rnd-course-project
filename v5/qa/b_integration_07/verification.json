@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "revision": "V5-07",
+  "changedPackagePartsFromCandidate": [
+    "ppt/slides/slide11.xml",
+    "ppt/notesSlides/notesSlide12.xml"
+  ],
+  "changedProjectionPagesFrom06": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    29
+  ],
+  "other27PagesPixelIdenticalTo06": true,
+  "BProjectionPixelIdenticalToCandidate": true,
+  "all24NotesAndSpokenScriptsMatch": true,
+  "ACDSourceUnchanged": true,
+  "BDesignSeconds": 260,
+  "humanTimingVerified": false,
+  "nativeOpenAndPDFExport": true,
+  "embeddedMediaSeconds": 18,
+  "foregroundPlaybackTested": false,
+  "printedPages": {
+    "全场口播_V5_07.docx": 5,
+    "来源与答辩_V5_07.docx": 11,
+    "课程报告_V5_07.docx": 8,
+    "B部分口播与练习_V5_07.docx": 2,
+    "组长B部分答辩备课_V5_07.docx": 3
+  },
+  "preserved06Artifacts": [
+    "v5/outputs/D部分口播与练习_V5_06.docx",
+    "v5/outputs/D部分口播与练习_V5_06.pdf",
+    "v5/outputs/D部分投影_V5_06.pdf",
+    "v5/outputs/全场口播_V5_06.docx",
+    "v5/outputs/全场口播_V5_06.pdf",
+    "v5/outputs/智能体产业研发_V5_06.pptx",
+    "v5/outputs/智能体产业研发_V5_06_主讲.pdf",
+    "v5/outputs/智能体产业研发_V5_06_含答辩.pdf",
+    "v5/outputs/来源与答辩_V5_06.docx",
+    "v5/outputs/来源与答辩_V5_06.pdf",
+    "v5/outputs/组长D部分答辩备课_V5_06.docx",
+    "v5/outputs/组长D部分答辩备课_V5_06.pdf",
+    "v5/outputs/课程报告_V5_06.docx",
+    "v5/outputs/课程报告_V5_06.pdf"
+  ],
+  "originalDWordPreserved": true,
+  "finalPptxSha256": "a41deb99aab302e07a7581403f31cba7f865df67cdfa248b7f5fdcdf0b3567f0",
+  "visualReview": "Separate human-readable visual_review.md; assertions do not infer visual quality."
+}

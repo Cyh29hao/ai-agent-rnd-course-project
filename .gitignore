@@ -27,4 +27,5 @@ v5/_build/node_modules/
 v5/_build/*.pptx
 v5/_build/*.ndjson
 v5/_build/*.log
+v5/_build/b_integration_07/
 v5/.chart-data-*/

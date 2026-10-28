@@ -1,0 +1,57 @@
+[
+  {
+    "source": "01_自然口播稿.md",
+    "sourceSha256": "4d9096f2fb1207efdef9524a7ba660ff95304e3e16273e9559a91b9ae9f31702",
+    "docx": "全场口播_V5_07.docx",
+    "docxSha256": "4b8153d37e4599cf1287d36adc9a6268bb447b1ef2045b7951fa57b890609ce4",
+    "pdf": "全场口播_V5_07.pdf",
+    "pages": 5,
+    "pdfSha256": "4b9371a8a48f444ad9755c1b9aba77d142ec3cf7e7a97f5c2b62b8d5b117499b",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/b_integration_07/documents/全场口播_V5_07"
+  },
+  {
+    "source": "04_来源与答辩.md",
+    "sourceSha256": "833bb9a1c732157847a45c35f995b293bff4bc5b87353549d389294c425c4376",
+    "docx": "来源与答辩_V5_07.docx",
+    "docxSha256": "1db2aa0d061e47be5020b51537e25a84bb71bb972af361a46102b548ef5d075b",
+    "pdf": "来源与答辩_V5_07.pdf",
+    "pages": 11,
+    "pdfSha256": "fe07efa734b3b6727c69f4a1cb7ff233ff784495fc56c6576b248197453c4397",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/b_integration_07/documents/来源与答辩_V5_07"
+  },
+  {
+    "source": "05_课程报告.md",
+    "sourceSha256": "38f06c2f1c6a1c64e1d6bcd3563da89f99026bf887c8957ca9b54a2d01bc7f4c",
+    "docx": "课程报告_V5_07.docx",
+    "docxSha256": "96468710f8bfe7198fd221c1ab2cf6136270f959cef0f38d849684650ee20073",
+    "pdf": "课程报告_V5_07.pdf",
+    "pages": 8,
+    "pdfSha256": "0a44534d03eed83189a27e49ef7e79729fab6b0718d267238d6af14737f2dd93",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/b_integration_07/documents/课程报告_V5_07"
+  },
+  {
+    "source": "14_B部分口播与练习.md",
+    "sourceSha256": "b1fcae23bcb9b637d97414ceb3da35b68fa1e6c7be4ecc43d1acf438b7632d41",
+    "docx": "B部分口播与练习_V5_07.docx",
+    "docxSha256": "f5ecdd58df9abc9a74216f43c353cca269a3b4693e49f3367eb46b7c03b0ca88",
+    "pdf": "B部分口播与练习_V5_07.pdf",
+    "pages": 2,
+    "pdfSha256": "9a474d70f475359b6377abfcaeabc0953c55f616a76ecaf5513cfa808c77f6d6",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/b_integration_07/documents/B部分口播与练习_V5_07"
+  },
+  {
+    "source": "15_B部分答辩备课.md",
+    "sourceSha256": "246b97654c02227ed96268986717686e67de0293e06fb5faad9ff220bdb90e69",
+    "docx": "组长B部分答辩备课_V5_07.docx",
+    "docxSha256": "62ff8535d4bbab957a505140261fbd24d68c63b442e09890e5e1b40675413f3e",
+    "pdf": "组长B部分答辩备课_V5_07.pdf",
+    "pages": 3,
+    "pdfSha256": "3fb9efb5fdeb3e781deed87290cf9ff793423ce36be32bd31f2a3829e782a994",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/b_integration_07/documents/组长B部分答辩备课_V5_07"
+  }
+]

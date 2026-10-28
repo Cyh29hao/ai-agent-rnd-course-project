@@ -426,7 +426,7 @@ def create_video(app):
     # in both the embedded poster frame and the exported MP4.
     if VIDEO.exists():
         VIDEO.unlink()
-    frames = app.Presentations.Add()
+    frames = app.Presentations.Add(WithWindow=0)
     frames.PageSetup.SlideWidth = SLIDE_W
     frames.PageSetup.SlideHeight = SLIDE_H
     for stage in range(3):
