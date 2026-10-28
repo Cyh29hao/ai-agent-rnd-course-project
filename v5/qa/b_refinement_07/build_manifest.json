@@ -1,0 +1,33 @@
+{
+  "base": "v5/outputs/智能体产业研发_V5_06.pptx",
+  "candidate": "v5/outputs/智能体产业研发_V5_07_候选.pptx",
+  "fullPdf": "v5/outputs/智能体产业研发_V5_07_候选_含答辩.pdf",
+  "bOnlyPptx": "v5/outputs/B部分投影_V5_07_候选.pptx",
+  "bOnlyPdf": "v5/outputs/B部分投影_V5_07_候选.pdf",
+  "candidateSha256": "c0ceb9ebd39082be9cfed64af1af6f67c9e7d33f63587b08f170f9f3e75277c8",
+  "slidesChanged": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    29
+  ],
+  "mainBSlides": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "otherMainSlidesPreserved": true,
+  "designSeconds": 260,
+  "video": "v5/outputs/蒸馏机制_B07_18秒.mp4",
+  "videoSha256": "b7bb37e959b7f40282e58287c58621a34e7e8a806db4be457b175a87ed7f40a5",
+  "videoDesignSeconds": 18,
+  "notesUpdated": true,
+  "nativeChartSlide13": true,
+  "status": "candidate_pending_leader_review_and_human_timing"
+}
