@@ -1,0 +1,12 @@
+{
+  "nativeOpen": true,
+  "source": "_build/a_refinement_08/a_merged.pptx",
+  "candidateSha256": "eb3f8f65e59fd6701cc594dc1ffaf13ebcb86902e9edfb4eb2f7fe7845881605",
+  "slides": 34,
+  "mediaMilliseconds": [
+    18000
+  ],
+  "renderer": "Microsoft PowerPoint invisible",
+  "foregroundPlaybackTested": false,
+  "PDF": "Static native diagram on page11; teaching video removed from unsaved copy only."
+}

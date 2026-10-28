@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "revision": "V5-08",
+  "changedSlideNumbers": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    25,
+    26
+  ],
+  "other27PagesPixelIdenticalTo07": true,
+  "BCDSourceUnchanged": true,
+  "all24NotesAndScriptsMatch": true,
+  "ASevenScriptsMatchPrint": true,
+  "ASeconds": 205,
+  "totalContentSeconds": 850,
+  "humanTimingVerified": false,
+  "nativeOpenAndPDFExport": true,
+  "embeddedMediaSeconds": 18,
+  "foregroundPlaybackTested": false,
+  "mediaChartWorkbookByteIdentical": true,
+  "printedPages": {
+    "组长A部分答辩备课_V5_08.docx": 3,
+    "A部分口播与练习_V5_08.docx": 2,
+    "全场口播_V5_08.docx": 5,
+    "来源与答辩_V5_08.docx": 12,
+    "课程报告_V5_08.docx": 8
+  },
+  "historicalArtifactsPreserved": 33,
+  "DOriginalPreserved": true,
+  "finalPptxSha256": "eb3f8f65e59fd6701cc594dc1ffaf13ebcb86902e9edfb4eb2f7fe7845881605",
+  "visualReview": "Separate visual_review.md; assertions do not infer appearance."
+}

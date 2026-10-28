@@ -1,8 +1,15 @@
 # 更新速览
 
-这里只记全组需要知道的变化。**材料完成、候选发布、合并采用与真人验收分开记录。** 当前main使用07；实际路径与采用状态见[版本清单](docs/当前版本.json)。
+这里只记全组需要知道的变化。**材料完成、候选发布、合并采用与真人验收分开记录。** 当前使用V5-08，A精修与全场联动材料已验收发布；实际路径与采用状态见[版本清单](docs/当前版本.json)。
 
 快捷入口：[最新main提交](https://github.com/Cyh29hao/ai-agent-rnd-course-project/commits/main/) · [待审PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls) · [已合并PR](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pulls?q=is%3Apr+is%3Amerged) · [协作速查](docs/PR协作与更新速查.md)。
+
+## 2026-10-28｜A精修完成，08整套材料发布
+
+- A保留7页、205秒设计预算，压缩历史，加入RSI与autoresearch的关联、研发正反馈、资源门槛及一句AIDE²进展；完整方法和数字仍由B—D展开。
+- 本轮同步08全场PPT、口播、来源与答辩、参考报告，补A独立练习与组长备课；本机验收已通过，08整套材料已发布至main。[08交付说明](v5/19_08交付与验收.md)
+- README按用途组织入口，新增[组长准备总览](docs/组长准备总览.md)，集中呈现各段状态、全场准备顺序和教师要求待确认项。
+- B独立07、D独立06继续有效；成员原稿与旧交付保留。C本轮未单独精修，真人理解、试讲计时、课堂播放及课程提交未核认。
 
 ## 2026-10-28｜B的PR #3合并，07整套材料更新
 

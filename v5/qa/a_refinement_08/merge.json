@@ -1,0 +1,33 @@
+{
+  "changedParts": [
+    "ppt/slides/slide2.xml",
+    "ppt/slides/slide3.xml",
+    "ppt/slides/slide4.xml",
+    "ppt/slides/slide5.xml",
+    "ppt/slides/slide6.xml",
+    "ppt/slides/slide25.xml",
+    "ppt/slides/slide26.xml",
+    "ppt/notesSlides/notesSlide25.xml",
+    "ppt/notesSlides/notesSlide26.xml",
+    "ppt/notesSlides/notesSlide1.xml",
+    "ppt/notesSlides/notesSlide2.xml",
+    "ppt/notesSlides/notesSlide3.xml",
+    "ppt/notesSlides/notesSlide4.xml",
+    "ppt/notesSlides/notesSlide5.xml",
+    "ppt/notesSlides/notesSlide6.xml",
+    "ppt/notesSlides/notesSlide7.xml"
+  ],
+  "allOtherPackagePartsByteIdentical": true,
+  "BMediaChartWorkbookPreserved": true,
+  "changedSlideNumbers": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    25,
+    26
+  ],
+  "ASeconds": 205,
+  "totalSlides": 34
+}
