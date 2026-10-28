@@ -2,7 +2,7 @@
 
 **AI辅助研发距离递归自我改进还有多远？** 以Anthropic、OpenAI等公司的公开实践为例。
 
-**本轮07整合待发布；当前main仍为06。** 张程翔的[B部分PR #3](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/3)已进入集中整合，本分支将B第8—13页及全场打印资料统一到07，保留已采用的D内容。以下07入口在发布完成后使用；成员真人理解、试讲和计时尚未验证，已有本地副本需同步更新。
+**当前使用V5-07。** 张程翔的[B部分PR #3](https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/3)已合并，B第8—13页、全场PPT及打印资料已统一更新。D内容保留，D独立资料继续用06。成员真人理解、试讲和计时尚未验证；已有本地副本请同步更新。
 
 ## 材料从这里看
 

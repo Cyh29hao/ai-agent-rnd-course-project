@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-28",
   "defensePreparation": {
     "presenter": "组长",
     "presenterStatus": "暂定",
     "memberResponsibility": "提交自己部分的改稿，看懂并练熟基本定稿，反馈实际讲不顺或不明白之处",
     "aiResponsibility": "润色讲稿、必要时联改PPT、核源并集中制作全场答辩材料，不额外要求成员补交整套说明与问答",
     "leaderResponsibility": "熟悉全场，练习并参加答辩",
-    "nextAction": "D材料已成套并通过本机验收；成员理解练习、组长熟悉与试讲后反馈具体问题。其他部分按原分工继续。"
+    "nextAction": "B、D材料已成套；成员理解练习并反馈实际卡点，组长熟悉全场。A、C按原分工继续完善。"
   },
   "submissionProgress": {
     "D": {
@@ -30,10 +30,28 @@
       "refinementMergedOn": "2026-10-26",
       "originalPullRequestMerged": false,
       "finalizationScope": "材料基本稿已采用，不代表真人理解、试讲或最终课程提交"
+    },
+    "B": {
+      "submittedBy": "张程翔",
+      "registeredOn": "2026-10-27",
+      "scope": "8—13页口播、投影、教学短片及备份29页",
+      "pullRequest": "https://github.com/Cyh29hao/ai-agent-rnd-course-project/pull/3",
+      "status": "PR #3已合并，必要微调及07整套文件同步发布至main",
+      "merged": true,
+      "mergeCommit": "ea03c0c549754677351101276b5cc646415eb7a1",
+      "mergedOn": "2026-10-28",
+      "finalized": true,
+      "finalizationScope": "材料基本稿已采用，不代表真人理解、试讲或课程最终提交",
+      "aiRefinementComplete": true,
+      "readyForPractice": true,
+      "humanUnderstandingVerified": false,
+      "humanTimingVerified": false,
+      "BDesignSeconds": 260,
+      "integrationBranch": "work/b-integration-07"
     }
   },
   "collaborationStyle": "按成员顺手的方式直接改稿、做PPT或提意见；PR与交文件均可，模板可选，不限修改数量、任务编号或分支命名",
-  "release": "V5-06",
+  "release": "V5-07",
   "entry": "v5/从这里开始.md",
   "mainSlides": 24,
   "referenceSlides": 2,
@@ -45,7 +63,7 @@
     "timezone": "Asia/Shanghai",
     "type": "planned_group_milestone_not_teacher_deadline",
     "scope": "各自Part初稿与本人理解、试讲；后续精修和答辩材料由AI协助集中完成",
-    "status": "D已有成套06基本稿；成员本人理解、试讲与其他段落的准备情况未核认",
+    "status": "B、D已有成套基本稿；成员本人理解、试讲及A、C准备情况未核认",
     "followUp": "组长安排整合、AI精修联改及集中答辩准备",
     "practiceRequired": false
   },
@@ -96,27 +114,27 @@
     "owner": "陈云海",
     "primaryPart": "A",
     "scope": "精修01—07页，同时熟悉、审核、统稿并衔接其他部分",
-    "status": "D精修本轮完成；组长后续仍以A为主并审核衔接全场，未在本轮开展A重写"
+    "status": "本轮完成B整合与07交付；组长后续仍以A为主并审核衔接全场，未在本轮重写A、C或D"
   },
   "suggestedNextDirections": {
     "A": "精修01—07开场、历史、动机、案例选择与三角色；审核全场与首尾衔接",
-    "B": "精修08—13连续研究故事、激活引导、蒸馏、KL与23.3%的含义",
+    "B": "看懂练熟8—13页基本稿，反馈实际卡点；深入追问由组长查B备课",
     "C": "精修14—18评测任务与Runme记录、AlphaEvolve及23%/1%的分母",
-    "D": "精修19—24策略/代码/参数区别、下一轮研发和结论；实践非必做且未指派"
+    "D": "看懂练熟19—24页基本稿，反馈实际卡点；实践仍非必做且未指派"
   },
   "fullCourseGoalComplete": false,
   "artifacts": {
     "deck": {
-      "path": "v5/outputs/智能体产业研发_V5_06.pptx",
-      "sha256": "d75cdde59518fbe687126be61fc7eaeec7fa77b5252d118dc964f765d9b1b55e"
+      "path": "v5/outputs/智能体产业研发_V5_07.pptx",
+      "sha256": "a41deb99aab302e07a7581403f31cba7f865df67cdfa248b7f5fdcdf0b3567f0"
     },
     "mainPdf": {
-      "path": "v5/outputs/智能体产业研发_V5_06_主讲.pdf",
-      "sha256": "3d524ef48dd75a568123c19b0c42842289162b37fa5b0a93bd76006bd1637e8c"
+      "path": "v5/outputs/智能体产业研发_V5_07_主讲.pdf",
+      "sha256": "cc2029dc3f66241c3be573940eb7d2297d8eaea616f55e9a0604d893a6f812fd"
     },
     "fullPdf": {
-      "path": "v5/outputs/智能体产业研发_V5_06_含答辩.pdf",
-      "sha256": "c004779879407a3943766f5b81cce5c020452edaa4bb85cabfc8738ef1676f77"
+      "path": "v5/outputs/智能体产业研发_V5_07_含答辩.pdf",
+      "sha256": "aac7ee4437171676fffb3762ef0e6b0bdcaa46ccc6cc9fa466fc3da6feb11a98"
     },
     "DSlidesPdf": {
       "path": "v5/outputs/D部分投影_V5_06.pdf",
@@ -139,28 +157,52 @@
       "sha256": "91b16c737fcbfeec295a82422139314a880026fc83547e2a70e0dd4c3ace7168"
     },
     "fullSpokenDOCX": {
-      "path": "v5/outputs/全场口播_V5_06.docx",
-      "sha256": "c00cfa53ed5b45c46cf714f66b13f7416a518b05eee01f59cb36409aaa7d316d"
+      "path": "v5/outputs/全场口播_V5_07.docx",
+      "sha256": "4b8153d37e4599cf1287d36adc9a6268bb447b1ef2045b7951fa57b890609ce4"
     },
     "fullSpokenPDF": {
-      "path": "v5/outputs/全场口播_V5_06.pdf",
-      "sha256": "8c39be8f856647154c275c195954dcfff084e461a408162387c863ad0ea73770"
+      "path": "v5/outputs/全场口播_V5_07.pdf",
+      "sha256": "4b9371a8a48f444ad9755c1b9aba77d142ec3cf7e7a97f5c2b62b8d5b117499b"
     },
     "sourcesDefenseDOCX": {
-      "path": "v5/outputs/来源与答辩_V5_06.docx",
-      "sha256": "3157f0b56d56e01e7db6c61833db18f0b76a5d46780f70a03259c52aeda91e5c"
+      "path": "v5/outputs/来源与答辩_V5_07.docx",
+      "sha256": "1db2aa0d061e47be5020b51537e25a84bb71bb972af361a46102b548ef5d075b"
     },
     "sourcesDefensePDF": {
-      "path": "v5/outputs/来源与答辩_V5_06.pdf",
-      "sha256": "13288408037edc165c31b4836ae34821c20bbb063ea5c493fc70993c4253e8dc"
+      "path": "v5/outputs/来源与答辩_V5_07.pdf",
+      "sha256": "fe07efa734b3b6727c69f4a1cb7ff233ff784495fc56c6576b248197453c4397"
     },
     "sharedReportDOCX": {
-      "path": "v5/outputs/课程报告_V5_06.docx",
-      "sha256": "439f60f226af3f097ff1a122c9a140b12bdc6e6bdda79f975b3193ff5b9c26c0"
+      "path": "v5/outputs/课程报告_V5_07.docx",
+      "sha256": "96468710f8bfe7198fd221c1ab2cf6136270f959cef0f38d849684650ee20073"
     },
     "sharedReportPDF": {
-      "path": "v5/outputs/课程报告_V5_06.pdf",
-      "sha256": "b693a739e2103f5be9491c50047cf0dcfb4a3922f191e9c05e06aa6388720df4"
+      "path": "v5/outputs/课程报告_V5_07.pdf",
+      "sha256": "0a44534d03eed83189a27e49ef7e79729fab6b0718d267238d6af14737f2dd93"
+    },
+    "BSlidesPdf": {
+      "path": "v5/outputs/B部分投影_V5_07.pdf",
+      "sha256": "e8e20eb3ecd852565fa92ac93ac54e508089a7ea62058e9decf1cba854c46a8b"
+    },
+    "BSpokenDOCX": {
+      "path": "v5/outputs/B部分口播与练习_V5_07.docx",
+      "sha256": "f5ecdd58df9abc9a74216f43c353cca269a3b4693e49f3367eb46b7c03b0ca88"
+    },
+    "BSpokenPDF": {
+      "path": "v5/outputs/B部分口播与练习_V5_07.pdf",
+      "sha256": "9a474d70f475359b6377abfcaeabc0953c55f616a76ecaf5513cfa808c77f6d6"
+    },
+    "BDefenseDOCX": {
+      "path": "v5/outputs/组长B部分答辩备课_V5_07.docx",
+      "sha256": "62ff8535d4bbab957a505140261fbd24d68c63b442e09890e5e1b40675413f3e"
+    },
+    "BDefensePDF": {
+      "path": "v5/outputs/组长B部分答辩备课_V5_07.pdf",
+      "sha256": "3fb9efb5fdeb3e781deed87290cf9ff793423ce36be32bd31f2a3829e782a994"
+    },
+    "BTeachingVideo": {
+      "path": "v5/outputs/蒸馏机制_B07_18秒.mp4",
+      "sha256": "b7bb37e959b7f40282e58287c58621a34e7e8a806db4be457b175a87ed7f40a5"
     }
   },
   "sources": {
@@ -173,7 +215,11 @@
     "layout": "v5/_build/build_deck.mjs",
     "DSpoken": "v5/11_D部分口播与练习.md",
     "DDefense": "v5/10_D部分答辩备课.md",
-    "DLayout": "v5/_build/build_d_06.mjs"
+    "DLayout": "v5/_build/build_d_06.mjs",
+    "BSpoken": "v5/14_B部分口播与练习.md",
+    "BDefense": "v5/15_B部分答辩备课.md",
+    "BLayout": "v5/_build/build_b_07.py",
+    "integration": "v5/16_07交付与验收.md"
   },
   "collaboration": {
     "guide": "docs/协作说明.md",
@@ -187,6 +233,6 @@
     "updates": "CHANGELOG.md"
   },
   "releaseStatus": "adopted_on_main_ready_for_practice",
-  "baseRelease": "V5-05",
+  "baseRelease": "V5-06",
   "mergedIntoMain": true
 }
