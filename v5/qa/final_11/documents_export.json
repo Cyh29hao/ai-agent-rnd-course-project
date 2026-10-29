@@ -1,0 +1,68 @@
+[
+  {
+    "source": "22_C部分口播与练习.md",
+    "sourceSha256": "d1f5f46ab6482884411c859c0b573fa105ba087db7e5a4089aadf2447cd7ed43",
+    "docx": "C部分口播与练习_V5_11.docx",
+    "docxSha256": "406b7d30dc07cbdcf346b06a3e6b9329bbbe52e0ee7a1e3bc0e450d05ec2a398",
+    "pdf": "C部分口播与练习_V5_11.pdf",
+    "pages": 2,
+    "pdfSha256": "f1f297a6ceea6cdee66e1536cccad7e58bfbe7e08f8ed759a7ab50b28d7aa4f7",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/final_11/documents/C部分口播与练习_V5_11"
+  },
+  {
+    "source": "11_D部分口播与练习.md",
+    "sourceSha256": "dc9159d9ab47f3c690a9c00859897bc18c08e2e93998345c46517dc03e934593",
+    "docx": "D部分口播与练习_V5_11.docx",
+    "docxSha256": "66551cd8339ea56500a515544439598f0166730313fedef72292f130ff4ecffa",
+    "pdf": "D部分口播与练习_V5_11.pdf",
+    "pages": 2,
+    "pdfSha256": "8f606502e34046544dadf6f3da6edde640b6a1102fc08915528ae8ffc6f3e004",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/final_11/documents/D部分口播与练习_V5_11"
+  },
+  {
+    "source": "01_自然口播稿.md",
+    "sourceSha256": "06a7540685faebf27e70b221ad9d384e5253cc945685fc41d76196c84c974160",
+    "docx": "全场口播_V5_11.docx",
+    "docxSha256": "a76a6338531724e268549f78c483bd0fb01b94ece2dc9523f29595c8c99c922d",
+    "pdf": "全场口播_V5_11.pdf",
+    "pages": 5,
+    "pdfSha256": "9490e920caab2b58c1db2ac84970c12803c4d81a9510d7b9c5bd1bb659c62fb9",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/final_11/documents/全场口播_V5_11"
+  },
+  {
+    "source": "05_课程报告.md",
+    "sourceSha256": "689d9bf29ada66bb25d8493ecbf8b708568947ee08a9a37d070ac8463b2e3299",
+    "docx": "课程报告_V5_11.docx",
+    "docxSha256": "acd26e3fc5a76d6f4ff1046f175c9e1199ffc81bb1f78c333edb9e52e0dee00b",
+    "pdf": "课程报告_V5_11.pdf",
+    "pages": 8,
+    "pdfSha256": "61e39ab0818e5f9f7da627b9082161338b108751a8551396d789fb4a50acda3b",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/final_11/documents/课程报告_V5_11"
+  },
+  {
+    "source": "23_C部分答辩备课.md",
+    "sourceSha256": "364886d2905e3bc407eb596d14c4ddb212a3f8e7db95e3d0d80aa7c03e7be1e9",
+    "docx": "组长C部分答辩备课_V5_11.docx",
+    "docxSha256": "1b6138930fae848daa684ee1c9ee89f24da9d05a618fbdd7b534814f5a32da7b",
+    "pdf": "组长C部分答辩备课_V5_11.pdf",
+    "pages": 2,
+    "pdfSha256": "228b3d5b341968360f81ef1ed0e0358b52129697cbd5ee957425cbcc6117d8e2",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/final_11/documents/组长C部分答辩备课_V5_11"
+  },
+  {
+    "source": "04_来源与答辩.md",
+    "sourceSha256": "fda2191bd3ad55fa718a724a63ddc622f773a8b3074d070a10fcc09a0c06a1ea",
+    "docx": "来源与答辩_V5_11.docx",
+    "docxSha256": "842317a257d63eaf990b5745f08c18b143ec3ed1d464022f9dcd6edf07f76354",
+    "pdf": "来源与答辩_V5_11.pdf",
+    "pages": 12,
+    "pdfSha256": "1480e7301f0c4acba7c812bf44e9134e2471e05fec89488698ac304fd4f693fd",
+    "renderer": "Microsoft Word COM invisible",
+    "pngDirectory": "qa/final_11/documents/来源与答辩_V5_11"
+  }
+]

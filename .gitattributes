@@ -8,3 +8,6 @@ materials/** -text
 *.pdf binary
 *.mp4 binary
 *.png binary
+
+# Keep member submissions exactly as received.
+collaboration/proposals/C_*/*.txt binary
