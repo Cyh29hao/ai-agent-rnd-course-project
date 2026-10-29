@@ -16,4 +16,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/check_collaboration_docs.py
+      - run: python scripts/check_reader_materials.py
       - run: git diff --check HEAD^ HEAD

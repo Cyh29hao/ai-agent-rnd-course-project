@@ -3,11 +3,11 @@
   "updated": "2026-10-29",
   "defensePreparation": {
     "presenter": "组长",
-    "presenterStatus": "暂定",
-    "memberResponsibility": "提交自己部分的改稿，看懂并练熟基本定稿，反馈实际讲不顺或不明白之处",
+    "presenterStatus": "组长确认统一准备",
+    "memberResponsibility": "按本人两份材料理解内容，待助教要求后完成个人书面报告，核对真实贡献和体会",
     "aiResponsibility": "润色讲稿、必要时联改PPT、核源并集中制作全场答辩材料，不额外要求成员补交整套说明与问答",
-    "leaderResponsibility": "熟悉全场，练习并参加答辩",
-    "nextAction": "组长按11主讲与全场口播连续通读、试讲；按需查A—D备课；完成全场人工验收和计时。"
+    "leaderResponsibility": "统一准备全场PPT讲述、试讲和答辩",
+    "nextAction": "成员按README保存本人两份材料，待助教要求后整理报告；组长额外只使用正式PPT与全场讲稿答辩手册"
   },
   "submissionProgress": {
     "D": {
@@ -147,8 +147,8 @@
   "currentWorkFocus": {
     "owner": "陈云海",
     "primaryPart": "A",
-    "scope": "审阅C并整合全场最终候选、核源和实际导出",
-    "status": "11版供组长整场人工验收；个人报告和课程提交仍待真实完成"
+    "scope": "个人报告材料收拢与成员友好入口",
+    "status": "每人两份报告材料，组长答辩额外两份；正式报告要求待助教安排"
   },
   "suggestedNextDirections": {
     "A": "已手工验收，结合全场试讲验证节奏",
@@ -277,6 +277,26 @@
     "CDefensePDF": {
       "path": "v5/outputs/组长C部分答辩备课_V5_11.pdf",
       "sha256": "228b3d5b341968360f81ef1ed0e0358b52129697cbd5ee957425cbcc6117d8e2"
+    },
+    "AReportKit": {
+      "path": "交付材料/A_陈云海_报告素材.md",
+      "sha256": "2cd50e455d6c78e2325e3de1759f9f69df548406bc337e4314e5b36747a9f2f5"
+    },
+    "BReportKit": {
+      "path": "交付材料/B_张程翔_报告素材.md",
+      "sha256": "76eb21c6b01fc77165a74eb5f5044b106b0e0f2cb8671c3a9d61efe2c14316fa"
+    },
+    "CReportKit": {
+      "path": "交付材料/C_赵金城_报告素材.md",
+      "sha256": "66256443ed14a1b2fe2dec7149eced78809682df365f8fa6bc97bb27eec21d02"
+    },
+    "DReportKit": {
+      "path": "交付材料/D_曹天卓_报告素材.md",
+      "sha256": "ac1bf06a57789977357469adb7d49b67bb128bdb715af99d1c8d54940e83912b"
+    },
+    "leaderHandbook": {
+      "path": "交付材料/组长_全场讲稿与答辩.md",
+      "sha256": "9f2c6b34e2b34e8d08510cf3107260b05d02a6a3351ca971322e9351922c1ff4"
     }
   },
   "sources": {
@@ -299,7 +319,12 @@
     "ALayout": "v5/_build/build_inspiration_10.mjs",
     "CSpoken": "v5/22_C部分口播与练习.md",
     "CDefense": "v5/23_C部分答辩备课.md",
-    "CLayout": "v5/_build/build_c_11.mjs"
+    "CLayout": "v5/_build/build_c_11.mjs",
+    "leaderHandbook": "交付材料/组长_全场讲稿与答辩.md",
+    "AReportKit": "交付材料/A_陈云海_报告素材.md",
+    "BReportKit": "交付材料/B_张程翔_报告素材.md",
+    "CReportKit": "交付材料/C_赵金城_报告素材.md",
+    "DReportKit": "交付材料/D_曹天卓_报告素材.md"
   },
   "collaboration": {
     "guide": "docs/协作说明.md",
@@ -311,9 +336,86 @@
     "practiceOptions": "docs/实践选项与旧实验说明.md",
     "pullRequests": "docs/PR协作与更新速查.md",
     "updates": "CHANGELOG.md",
-    "leaderOverview": "docs/组长准备总览.md"
+    "leaderOverview": "docs/组长准备总览.md",
+    "reportPreparation": "docs/个人报告准备与提示词.md"
   },
   "releaseStatus": "adopted_on_main_ready_for_practice",
   "baseRelease": "V5-10",
-  "mergedIntoMain": true
+  "mergedIntoMain": true,
+  "readingPlan": {
+    "updated": "2026-10-29",
+    "reports": {
+      "A": {
+        "owner": "陈云海",
+        "focus": "Agent for Agent的整体研究与分析",
+        "materials": [
+          {
+            "path": "交付材料/A_陈云海_报告素材.md",
+            "purpose": "报告素材、关键图、出处与参考提示词"
+          },
+          {
+            "path": "v5/outputs/智能体产业研发_V5_11_主讲.pdf",
+            "purpose": "全场24页主讲投影"
+          }
+        ]
+      },
+      "B": {
+        "owner": "张程翔",
+        "focus": "Agent提出与验证模型训练方法",
+        "materials": [
+          {
+            "path": "交付材料/B_张程翔_报告素材.md",
+            "purpose": "报告素材、关键图、出处与参考提示词"
+          },
+          {
+            "path": "v5/outputs/B部分投影_V5_09.pdf",
+            "purpose": "B六页投影"
+          }
+        ]
+      },
+      "C": {
+        "owner": "赵金城",
+        "focus": "Agent改进评测流程与研发程序",
+        "materials": [
+          {
+            "path": "交付材料/C_赵金城_报告素材.md",
+            "purpose": "报告素材、关键图、出处与参考提示词"
+          },
+          {
+            "path": "v5/outputs/C部分投影_V5_11.pdf",
+            "purpose": "C五页投影"
+          }
+        ]
+      },
+      "D": {
+        "owner": "曹天卓",
+        "focus": "Agent自身改进与下一轮研发",
+        "materials": [
+          {
+            "path": "交付材料/D_曹天卓_报告素材.md",
+            "purpose": "报告素材、关键图、出处与参考提示词"
+          },
+          {
+            "path": "v5/outputs/D部分投影_V5_09.pdf",
+            "purpose": "D六页投影"
+          }
+        ]
+      }
+    },
+    "leaderDefense": {
+      "owner": "陈云海",
+      "extraMaterials": [
+        {
+          "path": "v5/outputs/智能体产业研发_V5_11.pptx",
+          "purpose": "正式现场PPT，含答辩备份和教学视频"
+        },
+        {
+          "path": "交付材料/组长_全场讲稿与答辩.md",
+          "purpose": "全场逐页口播、数字卡、问答及来源"
+        }
+      ]
+    },
+    "teacherRequirementsStatus": "组长已询问老师，待助教安排具体要求；个人报告未按未知格式提前定稿",
+    "historyPolicy": "原稿和历次输出保留供查证；日常阅读只按README的两份材料入口"
+  }
 }

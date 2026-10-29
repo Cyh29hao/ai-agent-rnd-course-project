@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "reportInputs": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 2
+  },
+  "extraDefenseInputs": 2,
+  "spokenPages": 24,
+  "questionGroups": 18,
+  "artifactsChecked": 35,
+  "errors": [],
+  "originalArtifactsUnchanged": 30,
+  "projectionPages": {
+    "A": 24,
+    "B": 6,
+    "C": 5,
+    "D": 6
+  },
+  "primarySourcesUnchanged": true
+}
